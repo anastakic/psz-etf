@@ -15,19 +15,21 @@ def get_proxies():
     response = requests.get(url)
     parser = fromstring(response.text)
     proxies = set()
+    """
     for i in parser.xpath('//tbody/tr')[:10]:
         if i.xpath('.//td[7][contains(text(),"yes")]'):
             # Grabbing IP and corresponding PORT
             proxy = ":".join([i.xpath('.//td[1]/text()')[0], i.xpath('.//td[2]/text()')[0]])
             proxies.add(proxy)
+    """
     return proxies
 
 
 def populate():
-    total_pages = 1  # 200
+    total_pages = 5  # 200
     variants = [
-        # 'https://www.nekretnine.rs/stambeni-objekti/stanovi/izdavanje-prodaja/izdavanje/lista/po-stranici/20/stranica/',
-        # 'https://www.nekretnine.rs/stambeni-objekti/stanovi/izdavanje-prodaja/prodaja/lista/po-stranici/20/stranica/',
+        'https://www.nekretnine.rs/stambeni-objekti/stanovi/izdavanje-prodaja/izdavanje/lista/po-stranici/20/stranica/',
+        'https://www.nekretnine.rs/stambeni-objekti/stanovi/izdavanje-prodaja/prodaja/lista/po-stranici/20/stranica/',
         'https://www.nekretnine.rs/stambeni-objekti/kuce/lista/po-stranici/20/stranica/'
         ]
     for variant in variants:
@@ -55,10 +57,11 @@ def populate():
 
                 def run():
                     try:
-                        # print('Url: ' + url)
+                        print('Url: ' + url)
                         realty = requests.get(url)
                         inner_soup = BeautifulSoup(realty.content, "html.parser")
                         realty_props = get_props(inner_soup)
+                        additional_props = get_props_additional(inner_soup)
                         try:
                             price = get_price(inner_soup)
                         except Exception as exc:
@@ -68,26 +71,27 @@ def populate():
                             location_content = inner_soup.findAll('h3', {'class': 'stickyBox__Location'})
                             location = location_content[0].contents[0]
                         except Exception as exc:
-                            location_content = None
                             location = None
                             print('Error2:', str(exc))
 
                         heating = get_heating(inner_soup)
+                        parking = get_parking(inner_soup)
                         num_of_bathrooms = get_bathrooms(inner_soup)
-                        city = None
-                        quarter = None
+                        elevator = get_elevator(additional_props.contents[1::2])
+                        balcony = get_balcony(additional_props.contents[1::2])
                         if (location is not None) and (',' in location):
                             location = location.split(',', 1)
                             city = location[0].strip()
                             quarter = location[1].strip()
                         else:
-                            city = location.strip()
+                            city = str(location).strip()
                             quarter = None
                         transaction = None
                         category = None
                         square_metrics = None
+                        state = None
                         land_area = None
-                        registered = None
+                        registered = False
                         number_of_rooms = None
                         total_floors = None
                         floor = None
@@ -100,6 +104,7 @@ def populate():
                             time.sleep(5)
                             pass
                         for content in contents_:
+                            # print('[', content, ']')
                             if 'Transakcija' in content.contents[0]:
                                 if 'Prodaja' in content.contents[0]:
                                     transaction = 'prodaja'
@@ -118,6 +123,10 @@ def populate():
                                 square_metrics = square_metrics.replace('m²', '')
                                 square_metrics = square_metrics.strip()
                                 square_metrics = float(square_metrics)
+                            if 'Stanje nekretnine' in content.contents[0]:
+                                state = ' '.join([cont.string for cont in content.contents])
+                                state = state.replace('Stanje nekretnine:', '')
+                                state = state.strip()
                             if 'Površina zemljišta' in content.contents[0]:
                                 land_area = ' '.join([cont.string for cont in content.contents])  # content.contents[0]
                                 land_area = land_area.replace('Površina zemljišta:', '')
@@ -133,7 +142,7 @@ def populate():
                                 land_area = land_area.strip()
                                 land_area = float(land_area) * increase
                             if 'Uknjiženo' in content.contents[0]:
-                                if 'Da' in content.contents[0]:
+                                if 'Da' in ' '.join([cont.string for cont in content.contents]):
                                     registered = True
                                 else:
                                     registered = False
@@ -147,6 +156,7 @@ def populate():
                                     number_of_rooms = None
                             if 'Ukupan broj spratova' in content.contents[0]:
                                 total_floors = ' '.join([cont.string for cont in content.contents])  # content.contents[0]
+                                print("TOTAL_FLOORS", total_floors)
                                 total_floors = total_floors.replace('Ukupan broj spratova:', '')
                                 total_floors = total_floors.strip()
                                 try:
@@ -158,23 +168,42 @@ def populate():
                                 year_built = year_built.replace('Godina izgradnje:', '')
                                 year_built = year_built.strip()
                                 year_built = int(year_built)
-                            if 'Sprat' in content.contents[0]:
+                            if 'kupatil' in content.contents[0].lower():
+                                bathrooms = ' '.join([cont.string for cont in content.contents])
+                                bathrooms = bathrooms.replace('Kupatilo:', '')
+                                bathrooms = bathrooms.replace('Broj kupatila:', '')
+                                bathrooms = bathrooms.replace('Kupatila:', '')
+                                num_of_bathrooms = bathrooms.strip()
+                                if num_of_bathrooms == '':
+                                    num_of_bathrooms = None
+                                try:
+                                    num_of_bathrooms = float(num_of_bathrooms)
+                                except ValueError:
+                                    num_of_bathrooms = None
+                            if 'Sprat:' in content.contents[0] or 'Spratnost:' in content.contents[0]:
                                 floor = ' '.join([cont.string for cont in content.contents])  # content.contents[0]
+                                print("FLOOR", floor)
                                 if 'prizemlje' in floor.lower():  # content.contents[0].lower():
                                     floor = 0
                                 else:
                                     floor = floor.replace('Sprat:', '')
+                                    floor = floor.replace('Spratnost:', '')
                                     floor = floor.strip()
                                     try:
                                         floor = float(floor)
                                     except Exception:
                                         floor = None
+
                         data = (category,
                                 transaction,
                                 heating,
                                 city,
                                 quarter,
                                 url,
+                                state,
+                                parking,
+                                elevator,
+                                balcony,
                                 registered,
                                 square_metrics,
                                 year_built,
@@ -197,8 +226,8 @@ def populate():
                     heating_content = inner_soup.findAll('div', {'class': 'property__main-details'})
                     try:
                         heating_content = heating_content[0].contents[1].contents
-                    except Exception as ext:
-                        print("Error6:", ext)
+                    except Exception as ext6:
+                        print("Error6:", ext6)
                         return None
                     for content in heating_content[1::2]:
                         if 'Grejanje' in content.text:
@@ -210,18 +239,36 @@ def populate():
                             return heating
                     return None
 
-                def get_bathrooms(inner_soup):
-                    heating_content = inner_soup.findAll('div', {'class': 'property__main-details'})
+                def get_parking(inner_soup):
+                    parking_content = inner_soup.findAll('div', {'class': 'property__main-details'})
                     try:
-                        heating_content = heating_content[0].contents[1].contents
+                        parking_content = parking_content[0].contents[1].contents
+                    except Exception as ext8:
+                        print("Error8:", ext8)
+                        return None
+                    for content in parking_content[1::2]:
+                        if 'Parking' in content.text:
+                            parking = content.text.replace('Parking:', '')
+                            parking = parking.strip()
+                            if parking == '':
+                                return None
+                            return parking
+                    return None
+
+                def get_bathrooms(inner_soup):
+                    bathrooms_content = inner_soup.findAll('div', {'class': 'property__main-details'})
+                    try:
+                        bathrooms_content = bathrooms_content[0].contents[1].contents
                     except Exception as e:
                         print("Error7:", e)
                         return None
-                    for content in heating_content[1::2]:
-                        if 'Kupatilo' in content.text:
-                            heating = content.text.replace('Kupatilo:', '')
-                            number = heating.strip()
-                            if number == '-':
+                    for content in bathrooms_content[1::2]:
+                        if 'Kupatil' in content.text:
+                            bathrooms = content.text.replace('Kupatilo:', '')
+                            bathrooms = bathrooms.replace('Broj kupatila:', '')
+                            bathrooms = bathrooms.replace('Kupatila:', '')
+                            number = bathrooms.strip()
+                            if number == '':
                                 return None
                             try:
                                 return float(number)
@@ -229,12 +276,26 @@ def populate():
                                 return None
                     return None
 
+                def get_elevator(additional):
+                    if 'Lift' in [ad.contents[0] for ad in additional]:
+                        return 'Da'
+                    else:
+                        return 'Ne'
+
+                def get_balcony(additional):
+                    if 'Terasa' in [ad.contents[0] for ad in additional] \
+                            or 'Lođa' in [ad.contents[0] for ad in additional] \
+                            or 'Balkon' in [ad.contents[0] for ad in additional]:
+                        return 'Da'
+                    else:
+                        return 'Ne'
+
                 def get_price(inner_soup):
                     price_content = inner_soup.findAll('h4', {'class': 'stickyBox__price'})
                     try:
                         price = price_content[0].contents[0]
-                    except Exception as ext:
-                        print("Error3:", ext)
+                    except Exception as ext3:
+                        print("Error3:", ext3)
                         return None
                     if 'dogovor' in price.lower():
                         return None
@@ -247,9 +308,15 @@ def populate():
 
                 def get_props(inner_soup):
                     amenities_props = inner_soup.findAll('div', {'class': 'property__amenities'})
-                    for prop in amenities_props:
-                        if prop.contents[1].text == 'Podaci o nekretnini':
-                            return prop.contents[3]
+                    for propty in amenities_props:
+                        if propty.contents[1].text == 'Podaci o nekretnini':
+                            return propty.contents[3]
+
+                def get_props_additional(inner_soup):
+                    amenities_props = inner_soup.findAll('div', {'class': 'property__amenities'})
+                    for propty in amenities_props:
+                        if propty.contents[1].text == 'Dodatna opremljenost':
+                            return propty.contents[3]
 
                 try:
                     run()

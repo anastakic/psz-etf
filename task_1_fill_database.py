@@ -18,10 +18,8 @@ class DataBase:
         if value is None:
             return 'NULL'
 
-        if i <= 5:
+        if i <= 9:
             return '"' + value + '"'
-        elif i == 6:
-            return value
         else:
             return value
 
@@ -34,6 +32,10 @@ class DataBase:
             '`city`,' \
             '`quarter`,' \
             '`webpage`,' \
+            '`state`,' \
+            '`parking`,' \
+            '`elevator`,' \
+            '`balcony`,' \
             '`registered`,' \
             '`square_meters`,' \
             '`year_built`,' \
@@ -43,7 +45,7 @@ class DataBase:
             '`total_rooms`,' \
             '`total_bathrooms`,' \
             '`price`)' \
-            'VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)' \
+            'VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)' \
             % (tuple([self.parse_value(single_data, i) for i, single_data in enumerate(data)]))
         print(insert_into_query)
         self.queries.append(insert_into_query)
