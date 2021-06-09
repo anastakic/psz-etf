@@ -11,17 +11,28 @@ class DataBase:
     def __init__(self):
         self.queries = []
 
-    def parse_value(self, value, i):
-        # for i between 0 and 5 strings
-        # for i equals 6 boolean
-        # for i larger than 6 int / float
+    @staticmethod
+    def open_connection():
+        connection = None
+        try:
+            connection = pyodbc.connect('DRIVER={MySQL ODBC 8.0 ANSI Driver};'
+                                        'SERVER=' + SERVER + ';' +
+                                        'DATABASE=' + DATABASE + ';' +
+                                        'UID=' + USERNAME + ';' +
+                                        'PWD=' + PASSWORD + ';')
+        except (Exception, pyodbc.DatabaseError) as error:
+            print("Connection error:", error)
+
+        return connection
+
+    @staticmethod
+    def parse_value(value):
         if value is None:
             return 'NULL'
-
-        if i <= 9:
-            return '"' + value + '"'
-        else:
-            return value
+        try:
+            return float(value)
+        except ValueError:
+            return '"{}"'.format(value)
 
     def add_data(self, data):
         insert_into_query = \
@@ -46,7 +57,7 @@ class DataBase:
             '`total_bathrooms`,' \
             '`price`)' \
             'VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)' \
-            % (tuple([self.parse_value(single_data, i) for i, single_data in enumerate(data)]))
+            % (tuple([self.parse_value(single_data) for single_data in data]))
         print(insert_into_query)
         self.queries.append(insert_into_query)
 
@@ -54,53 +65,21 @@ class DataBase:
         connection = cursor = None
         try:
             print("insert!")
-            connection = pyodbc.connect('DRIVER={MySQL ODBC 8.0 ANSI Driver};'
-                                        'SERVER=' + SERVER + ';' +
-                                        'DATABASE=' + DATABASE + ';' +
-                                        'UID=' + USERNAME + ';' +
-                                        'PWD=' + PASSWORD + ';')
+            connection = self.open_connection()
             cursor = connection.cursor()
 
             # insert into table
-
             for query in self.queries:
                 print(cursor.execute(query))
 
             connection.commit()
 
         except (Exception, pyodbc.DatabaseError) as error:
-            print("Error importing data", error)
+            print("Error inserting data", error)
+            
         finally:
             # closing database connection.
             if connection:
                 cursor.close()
                 connection.close()
 
-
-    def empty_database(self):
-        connection = cursor = None
-        try:
-            connection = pyodbc.connect('DRIVER={MySQL ODBC 8.0 ANSI Driver};'
-                                        'SERVER=' + SERVER + ';' +
-                                        'DATABASE=' + DATABASE + ';' +
-                                        'UID=' + USERNAME + ';' +
-                                        'PWD=' + PASSWORD + ';')
-            cursor = connection.cursor()
-
-            # delete from table
-
-            clean_database = 'delete from "realty"'
-            cursor.execute(clean_database)
-            connection.commit()
-            print("Database_empty: ")
-
-        except (Exception, pyodbc.DatabaseError) as error:
-            print("Error emptying database", error)
-
-        finally:
-
-            # closing database connection.
-
-            if connection:
-                cursor.close()
-                connection.close()
