@@ -2,8 +2,6 @@ import requests  # pip install requests
 import time
 
 from bs4 import BeautifulSoup  # pip install beautifulsoup4
-from itertools import cycle
-
 from task_1_fill_database import DataBase
 
 
@@ -20,7 +18,7 @@ class DataCollector:
         self.parking = None
         self.elevator = None
         self.balcony = None
-        self.registered = None
+        self.registered = False
         self.square_metrics = None
         self.year_built = None
         self.land_area = None
@@ -29,12 +27,16 @@ class DataCollector:
         self.number_of_rooms = None
         self.num_of_bathrooms = None
         self.price = None
+        self.data_base = None
 
+    def start(self):
+        print('TASK 1 STARTED...')
         self.data_base = DataBase()
         self.collect_data()
         self.data_base.insert_data()
 
-        print('SUCCESS')
+        print('TASK 1 FINISHED!')
+        print('****************')
 
     def init_data(self):
         self.category = None
@@ -47,7 +49,7 @@ class DataCollector:
         self.parking = None
         self.elevator = None
         self.balcony = None
-        self.registered = None
+        self.registered = False
         self.square_metrics = None
         self.year_built = None
         self.land_area = None
@@ -59,26 +61,26 @@ class DataCollector:
 
     def get_data(self):
         return (
-                self.category,
-                self.transaction,
-                self.heating,
-                self.city,
-                self.quarter,
-                self.url,
-                self.state,
-                self.parking,
-                self.elevator,
-                self.balcony,
-                self.registered,
-                self.square_metrics,
-                self.year_built,
-                self.land_area,
-                self.total_floors,
-                self.floor,
-                self.number_of_rooms,
-                self.num_of_bathrooms,
-                self.price
-            )
+            self.category,
+            self.transaction,
+            self.heating,
+            self.city,
+            self.quarter,
+            self.url,
+            self.state,
+            self.parking,
+            self.elevator,
+            self.balcony,
+            self.registered,
+            self.square_metrics,
+            self.year_built,
+            self.land_area,
+            self.total_floors,
+            self.floor,
+            self.number_of_rooms,
+            self.num_of_bathrooms,
+            self.price
+        )
 
     @staticmethod
     def get_props(inner_soup):
@@ -166,15 +168,14 @@ class DataCollector:
             self.price = float(price)
         except Exception as ext3:
             print("Error3:", ext3)
-            self.price =  None
+            self.price = None
 
     def get_transaction(self, content):
         if 'Transakcija' in content.contents[0]:
-            if 'Prodaja' in content.contents[0]:
+            if 'Prodaja' in content.contents[1].string:
                 self.transaction = 'prodaja'
             else:
                 self.transaction = 'izdavanje'
-        return None
 
     def get_category(self, content):
         if 'Kategorija' in content.contents[0]:
@@ -314,6 +315,8 @@ class DataCollector:
             self.get_elevator(additional_props)
             self.get_balcony(additional_props)
 
+            contents_ = []
+
             try:
                 contents_ = realty_props.contents[1::2]
             except:
@@ -340,10 +343,10 @@ class DataCollector:
             return
 
     def collect_data(self):
-        total_pages = 1  # 200
+        total_pages = 5  # 200
         variants = [
-            # 'https://www.nekretnine.rs/stambeni-objekti/stanovi/izdavanje-prodaja/izdavanje/lista/po-stranici/20/stranica/',
-            # 'https://www.nekretnine.rs/stambeni-objekti/stanovi/izdavanje-prodaja/prodaja/lista/po-stranici/20/stranica/',
+            'https://www.nekretnine.rs/stambeni-objekti/stanovi/izdavanje-prodaja/izdavanje/lista/po-stranici/20/stranica/',
+            'https://www.nekretnine.rs/stambeni-objekti/stanovi/izdavanje-prodaja/prodaja/lista/po-stranici/20/stranica/',
             'https://www.nekretnine.rs/stambeni-objekti/kuce/lista/po-stranici/20/stranica/'
         ]
         for variant in variants:
@@ -367,6 +370,3 @@ class DataCollector:
                 except Exception as e:
                     print("Error:", e)
                     pass
-
-
-cd = DataCollector()

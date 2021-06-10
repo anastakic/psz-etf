@@ -58,21 +58,23 @@ class DataBase:
             '`price`)' \
             'VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)' \
             % (tuple([self.parse_value(single_data) for single_data in data]))
+
         print(insert_into_query)
         self.queries.append(insert_into_query)
 
     def insert_data(self):
         connection = cursor = None
         try:
-            print("insert!")
             connection = self.open_connection()
             cursor = connection.cursor()
 
             # insert into table
             for query in self.queries:
-                print(cursor.execute(query))
+                cursor.execute(query)
 
             connection.commit()
+            if len(self.queries) > 0:
+                print("Inserted {} rows in database done!".format(str(len(self.queries))))
 
         except (Exception, pyodbc.DatabaseError) as error:
             print("Error inserting data", error)
