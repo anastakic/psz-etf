@@ -343,7 +343,7 @@ class DataCollector:
             return
 
     def collect_data(self):
-        total_pages = 5  # 200
+        total_pages = 20  # 200
         variants = [
             'https://www.nekretnine.rs/stambeni-objekti/stanovi/izdavanje-prodaja/izdavanje/lista/po-stranici/20/stranica/',
             'https://www.nekretnine.rs/stambeni-objekti/stanovi/izdavanje-prodaja/prodaja/lista/po-stranici/20/stranica/',

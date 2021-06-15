@@ -1,19 +1,104 @@
 id,type,offer_type,square_meters,year_built,land_area,total_floors,floor,registered,heating_type,total_rooms,total_bathrooms,price,city,quarter,state,parking,elevator,balcony,webpage
 5648,kuca,prodaja,500.0,2021,,,3,1,Centralno,16,7,1000000.0,Niš,Centar,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/medijana-nis-stambeno-poslovni-objekat-500/NkgSdUg33ei/
 6198,kuca,prodaja,500.0,2021,,,3,1,Centralno,16,7,1000000.0,Niš,Centar,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/medijana-nis-stambeno-poslovni-objekat-500/NkgSdUg33ei/
+6443,kuca,prodaja,500.0,2021,,,3,1,Centralno,16,7,1000000.0,Niš,Centar,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/medijana-nis-stambeno-poslovni-objekat-500/NkgSdUg33ei/
+8490,kuca,prodaja,500.0,2021,,,3,1,Centralno,16,7,1000000.0,Niš,Centar,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/medijana-nis-stambeno-poslovni-objekat-500/NkgSdUg33ei/
+7850,stan,prodaja,133.0,2021,,5,1,1,,4,2,500000.0,Beograd,Vra?ar (Centar),Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/vracar-novogradnja-savrsen-useljiv-cetvorosoban-stan/NkF74pBvTgp/
+8027,stan,prodaja,150.0,2021,,2,2,0,,2,1,459000.0,Tivat,,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lux-penthouse-u-tivtu/NkAssUluTzH/
 5970,stan,prodaja,85.0,2021,,19,16,0,,3,2,307888.0,Beograd,Beograd na vodi,U izgradnji,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/pogled-na-usce-dve-reke-metropolitan-na-16-spratu-jedini-dostupan-sa-ovakvom-pozicijom-2-terase/NkDa-4mmNkL/
+7457,stan,prodaja,85.0,2021,,19,16,0,,3,2,307888.0,Beograd,Beograd na vodi,U izgradnji,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/pogled-na-usce-dve-reke-metropolitan-na-16-spratu-jedini-dostupan-sa-ovakvom-pozicijom-2-terase/NkDa-4mmNkL/
+8070,stan,prodaja,106.8,2021,,,5,1,Centralno,4,1,288360.0,Beograd,Vukov spomenik,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/celopecka-vukov-spomenik-zvezdara-id1370/NkHT26WXoM0/
+8071,stan,prodaja,106.8,2021,,,6,1,Centralno,4,1,288360.0,Beograd,Vukov spomenik,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/celopecka-vukov-spomenik-zvezdara-id1371/NkWnXADwitb/
+8052,stan,prodaja,104.58,2021,,,4,1,Centralno,4,1,282366.0,Beograd,Vukov spomenik,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/celopecka-vukov-spomenik-zvezdara-id1374/Nkhb9Bv9muF/
+8028,stan,prodaja,82.0,2021,,2,1,0,,2,1,258000.0,Tivat,,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/prodajem-lux-stan-u-tivtu/NkqQeXjlwg3/
+8072,stan,prodaja,95.35,2021,,,5,1,Centralno,4,1,257445.0,Beograd,Vukov spomenik,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/celopecka-vukov-spomenik-zvezdara-id1372/NkDvvPpDdbD/
+8177,stan,prodaja,95.0,2021,,,7,0,Centralno,3,,232309.0,Beograd,Tošin bunar,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/novogradnja-na-novom-beogradu-tosin-bunar/NkZOo9m528j/
+8074,stan,prodaja,85.93,2021,,,4,1,Centralno,4,1,232011.0,Beograd,Vukov spomenik,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/celopecka-vukov-spomenik-zvezdara-id1377/NkwchJdckVJ/
+7819,stan,prodaja,94.0,2021,,4,3,1,Etažno,3,2,230000.0,Beograd,Voždovac,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/jove-ilica-lux-novogradnja-trosoban/NkVxVwZtuPK/
 5971,stan,prodaja,55.0,2021,,7,5,1,,2,1,225000.0,Beograd,Vra?ar (Hram),Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/luksuzan-stan-55-m2--smart-home-sistem-/Nk7YVAligNW/
+7458,stan,prodaja,55.0,2021,,7,5,1,,2,1,225000.0,Beograd,Vra?ar (Hram),Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/luksuzan-stan-55-m2--smart-home-sistem-/Nk7YVAligNW/
+8437,stan,prodaja,65.0,2021,,,4,0,Centralno,2,,199990.0,Beograd,Beograd na vodi,Standardna gradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/beograd-na-vodi-65m2-iv-cg/Nk7kYW2f-2L/
+7909,stan,prodaja,93.0,2021,,4,2,0,Podno,4,2,185980.0,Beograd,Voždovac,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/vozdovac-93m2-cetvorosoban-vozdovacka-crkva-nestora-zucnog-17/NkKmO_N2XVy/
+7807,stan,prodaja,90.0,2021,,9,4,0,Etažno,4,2,180000.0,Beograd,Južni bulevar,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/objekat-u-izgradnji-cena-2000evram2-plus-pdv/Nk-QQkZt6Hg/
 6028,stan,prodaja,70.0,2021,,5,4,0,Etažno,3,2,166000.0,Beograd,Banovo brdo,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/banovo-brdo-cena-2360evram2-plus-pdv/NkQXDTOx0zV/
+7653,stan,prodaja,70.0,2021,,5,4,0,Etažno,3,2,166000.0,Beograd,Banovo brdo,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/banovo-brdo-cena-2360evram2-plus-pdv/NkQXDTOx0zV/
+8036,stan,prodaja,49.0,2021,,2,,0,,1,1,159000.0,Tivat,,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/prodajem-stan-u-tivtu/NkgEWguzFZ2/
 6049,stan,prodaja,101.0,2021,200.0,2,,1,"Podno, Etažno",3,2,155000.0,Zlatibor,Centar,U izgradnji,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/vila-monument-zlatibor/Nk0V6QuEK1Q/
+7666,stan,prodaja,130.0,2021,200.0,2,,1,"Podno, Etažno",3,2,155000.0,Zlatibor,Centar,U izgradnji,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/vila-monument-zlatibor/Nk0V6QuEK1Q/
+7578,stan,prodaja,85.0,2021,,,1,0,Etažno,4,1,153000.0,Beograd,Zemun (Save Kova?evi?a),Novogradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/nov-luks-troiposoban-kod-doma-zdravlja-u-zemunu-id7088/NkGhU5_KGne/
+7808,stan,prodaja,92.0,2021,,7,3,0,Etažno,4,2,152000.0,Beograd,Vidikovac,U pripremi,Da,Da,Ne,https://www.nekretnine.rs/stambeni-objekti/stanovi/vidikovac-cetvorosoban-stan-u-izgradnji-od-1650evram2-plus-pdv/NkaqXfU22oX/
+8178,stan,prodaja,62.0,2021,,,7,0,Centralno,2,,147192.0,Beograd,Tošin bunar,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/novogradnja-na-novom-beogradu-tosin-bunar/Nkgrv2eN8px/
 6002,stan,prodaja,67.0,2021,,,1,0,Etažno,3,1,120600.0,Beograd,Zemun (Save Kova?evi?a),Novogradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/nov-luks-trosoban-kod-doma-zdravlja-zemun-id7087/NkD5viC6CoE/
+7633,stan,prodaja,67.0,2021,,,1,0,Etažno,3,1,120600.0,Beograd,Zemun (Save Kova?evi?a),Novogradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/nov-luks-trosoban-kod-doma-zdravlja-zemun-id7087/NkD5viC6CoE/
+8030,stan,prodaja,37.0,2021,,2,0,0,,1,1,119000.0,Tivat,,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/prodajem-stan-u-tivtu/NkYlMFI8I8g/
+8414,stan,prodaja,57.0,2021,,,1,1,Ostalo,3,,114000.0,Beograd,Karaburma,U izgradnji,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/karaburma-57m2-i-eg-uknj/NkVxay4Xs2Q/
+7911,stan,prodaja,56.0,2021,,4,2,0,Podno,2,1,113140.0,Beograd,Voždovac,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/vozdovac-56-57m2-dvosoban-vozdovacka-crkva-nestora-zucnog-17/NkEXSR6E9Q4/
+7800,stan,prodaja,55.0,2021,,3,1,0,"Klima, Etažno",3,1,110000.0,Beograd,Dušanovac,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/vozdovac-novogradnja-moze-na-kredit-banke/Nk1Tp8HjCmM/
+8398,stan,prodaja,57.0,2021,,,6,1,Ostalo,3,,107000.0,Beograd,Karaburma,U izgradnji,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/karaburma-57m2-vi-eg-uknj/NkEWQCBRjBm/
+7910,stan,prodaja,53.48,2021,,4,2,0,Podno,3,1,106960.0,Beograd,Voždovac,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/vozdovac-53-48m2-trosoban-vozdovacka-crkva-nestora-zucnog-19/Nk-Edf7p7zf/
+7777,stan,prodaja,80.0,2021,,,3,1,Etažno,5,2,104000.0,Niš,Bulevar Nemanji?a,U izgradnji,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/bulevar-nemanjica-dupleh-5030/NkZ0V-HWSdJ/
 6026,stan,prodaja,63.0,2021,,7,4,1,Etažno,3,1,103500.0,Beograd,Vidikova?ki venac,Kompletna rekonstrukcija,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/vidikovac-novogradnja-1650evram2-plus-pdv/Nkhe1RJ6ZKl/
+7651,stan,prodaja,63.0,2021,,7,4,1,Etažno,3,1,103500.0,Beograd,Vidikova?ki venac,Kompletna rekonstrukcija,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/vidikovac-novogradnja-1650evram2-plus-pdv/Nkhe1RJ6ZKl/
+8440,stan,prodaja,57.0,2021,,,0,0,Ostalo,3,,99750.0,Beograd,Karaburma,Novogradnja,Da,Ne,Ne,https://www.nekretnine.rs/stambeni-objekti/stanovi/bogoslovija-57m2-pr-eg-novo/NkCDwsIgvrG/
+8047,stan,prodaja,76.0,2021,,,2,0,Ostalo,4,1,95000.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1256/NkFJeIkrj47/
+8046,stan,prodaja,75.0,2021,,,1,0,Ostalo,4,1,93750.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1249/NkY81rRejOU/
+8059,stan,prodaja,75.0,2021,,,,0,Ostalo,4,1,93750.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1263/NklKTe_ZaDU/
 6027,stan,prodaja,35.0,2021,,5,2,0,"Etažno, Klima",2,1,90000.0,Beograd,Banovo brdo,Novogradnja,Da,Da,Ne,https://www.nekretnine.rs/stambeni-objekti/stanovi/banovo-brdo-cena-2550evram2-plus-pdv/NkioExqGjja/
+7652,stan,prodaja,35.0,2021,,5,2,0,"Etažno, Klima",2,1,90000.0,Beograd,Banovo brdo,Novogradnja,Da,Da,Ne,https://www.nekretnine.rs/stambeni-objekti/stanovi/banovo-brdo-cena-2550evram2-plus-pdv/NkioExqGjja/
+8300,stan,prodaja,62.0,2021,,3,0,0,Etažno,3,2,89300.0,Novi Sad,Telep,U izgradnji,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/fantasticna-izgradnja-na-top-lokaciji/Nk6OgU-UmAw/
+7859,stan,prodaja,77.0,2021,,6,2,1,Centralno,3,2,88550.0,Niš,Staro groblje,Novogradnja,Da,Da,Ne,https://www.nekretnine.rs/stambeni-objekti/stanovi/trosoban-stan-u-novogradnji-centar/NkotI2_YMOE/
+7864,stan,prodaja,77.0,2021,,6,1,1,Centralno,3,2,88550.0,Niš,Palilula,Novogradnja,Da,Da,Ne,https://www.nekretnine.rs/stambeni-objekti/stanovi/trosoban-stan-u-novogradnji-centar/NkFp_SuzNCp/
+7836,stan,prodaja,46.0,2021,,,2,0,"Klima, Etažno, Ostalo",2,1,87300.0,Beograd,Pregrevica,U izgradnji,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/zemun-20s-45-96m2-1spr-novogradnja-lux/NkuFqJNkLMB/
 6089,stan,prodaja,42.0,2021,,5,4,1,Etažno,2,1,86835.0,Beograd,Bulevar Kr. Aleksandra,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/direktna-prodaja-stanova-na-bulevaru-kralja-aleksandrabez-provizijelux-gradnja-povrat-pdv-a/NkOuNklLT0e/
+7806,stan,prodaja,43.0,2021,,8,3,0,"Etažno, Klima",2,1,86000.0,Beograd,Južni bulevar,U izgradnji,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/juzni-bulevar-objekat-u-izgradnji-cena-2000-evram2-plus-pdv/Nk4wcvRMGX4/
+7880,stan,prodaja,67.0,2021,,6,0,1,Etažno,3,2,84000.0,Niš,Centar,Novogradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/dvoiposoban-stan-u-izgradnji-u-blizini-pravnog-i-ekonomskog-fakulteta/NkqZh3p17FF/
 5597,stan,prodaja,75.0,2021,,,4,1,,4,2,83000.0,Niš,Palilula,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/novogradnja-sa-povracajem-pdv-a-3-spavace-sobe/NkBGXSBP3WN/
 5948,stan,prodaja,75.0,2021,,,4,1,,4,2,83000.0,Niš,Palilula,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/novogradnja-sa-povracajem-pdv-a-3-spavace-sobe/NkBGXSBP3WN/
+8413,stan,prodaja,46.0,2021,,,2,1,Ostalo,2,,81000.0,Beograd,Karaburma,U izgradnji,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/karaburma-46m2-ii-eg-uknj/NkMnH3Vslm5/
+8408,stan,prodaja,43.0,2021,,,4,1,Ostalo,2,,79200.0,Beograd,Karaburma,U izgradnji,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/karaburma-43m2-iv-eg-uknj/NkOzqToTl4T/
+8411,stan,prodaja,43.0,2021,,,2,1,Ostalo,2,,79200.0,Beograd,Karaburma,U izgradnji,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/karaburma-43m2-ii-eg-uknj/NkzK5ATn34a/
+8421,stan,prodaja,43.0,2021,,,1,1,Ostalo,2,,79200.0,Beograd,Karaburma,U izgradnji,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/karaburma-43m2-i-eg-uknj/Nk9yaFgMWsk/
+8405,stan,prodaja,46.0,2021,,,6,1,Ostalo,2,,76000.0,Beograd,Karaburma,U izgradnji,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/karaburma-46m2-vi-eg-uknj/NkssZ8ZiIgA/
+7925,stan,prodaja,78.0,2021,,3,,0,Centralno,2,2,74100.0,Novi Banovci,,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/stan-78m2-novi-banovci-karanovic-gradnja/NkZWxMksDS0/
+7812,stan,prodaja,80.0,2021,,9,0,1,,4,2,74000.0,Kragujevac,Centar,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/cetvorosoban-stan-80m2-erdoglija/NkouOgouUVb/
+7823,stan,prodaja,43.0,2021,,7,2,0,Centralno,2,1,71000.0,Beograd,Vidikovac,U pripremi,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/vidikovac-1650-evram2-plus-pdv/Nk_WYNLaEvu/
+8180,stan,prodaja,28.0,2021,,,7,0,Centralno,1,,68281.0,Beograd,Tošin bunar,Standardna gradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/novogradnja-na-novom-beogradu-tosin-bunar/NkytXn4K3l7/
+7856,stan,prodaja,62.0,2021,,6,0,0,Ostalo,3,2,68000.0,Beograd,Olimp,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/prodajem-lux-dvoiposoban-stan-zvezdara-vojvode-blazete-36-62-m2-prizemlje-dvoriste-30-m2/NkPMLGcIl3K/
+7486,stan,prodaja,48.0,2021,,2,2,1,Etažno,2,1,67100.0,Beograd,Ledine,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/uknjizen-odmah-useljiv-top-jednoiposoban-stan-kod-crkve-na-ledinama/NktbF-D7DGW/
+8283,stan,prodaja,57.0,2021,,,1,0,Ostalo,3,,63500.0,Beograd,Krnja?a,Novogradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/krnjaca-57m2-i-eg-novo-ekskluzivna-prodaja-stanova-povracaj-pdv-a/NkK3s8XxCsF/
+8287,stan,prodaja,57.0,2021,,,2,0,Ostalo,3,,63500.0,Beograd,Krnja?a,Standardna gradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/krnjaca-57m2-ii-eg-novo-povracaj-pdv-a/NkpNVz4a3Tb/
+7817,stan,prodaja,44.5,2021,,2,2,0,"Podno, Klima",2,1,63000.0,Novi Sad,Veternik,U izgradnji,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/dvosoban-stan-u-izgradnji-httpseuromontcorseuromont-kompleks/NkReEqUanyT/
+8065,stan,prodaja,28.45,2021,,,3,1,Centralno,1,1,61167.0,Beograd,Gradska bolnica,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/dimitrija-tucovica-gradska-bolnica-zvezdara-id1310/NkoAEanYOJz/
+8281,stan,prodaja,53.0,2021,,,2,0,Ostalo,3,,60000.0,Beograd,Krnja?a,Standardna gradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/krnjaca-53m2-ii-eg-novo-ekskluzivna-prodaja-stanova-sa-povracajem-pdv-a/NkPA49IjMgF/
 6011,stan,prodaja,31.0,2021,,,0,0,"Klima, Etažno, Ostalo",1,1,58000.0,Beograd,Pregrevica,U izgradnji,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/zemun-10s-30-50m2-1spr-novogradnja-lux/NkPKhbcknMZ/
+7639,stan,prodaja,31.0,2021,,,0,0,"Klima, Etažno, Ostalo",1,1,58000.0,Beograd,Pregrevica,U izgradnji,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/zemun-10s-30-50m2-1spr-novogradnja-lux/NkPKhbcknMZ/
 5581,stan,prodaja,39.0,2021,,5,0,0,Ostalo,2,1,55680.0,Zlatibor,Golija,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lux-novogradnja-prestige-forest-resort/NkLAfvNEglP/
 5932,stan,prodaja,39.0,2021,,5,0,0,Ostalo,2,1,55680.0,Zlatibor,Golija,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lux-novogradnja-prestige-forest-resort/NkLAfvNEglP/
+7485,stan,prodaja,39.0,2021,,5,0,0,Ostalo,2,1,55680.0,Zlatibor,Golija,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lux-novogradnja-prestige-forest-resort/NkLAfvNEglP/
+8064,stan,prodaja,24.6,2021,,,1,1,Centralno,1,1,52850.0,Beograd,Gradska bolnica,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/dimitrija-tucovica-gradska-bolnica-zvezdara-id1304/NkFMBb4meHT/
+9014,kuca,prodaja,220.0,2021,1500.0,2,,1,,,1,49000.0,Jazak,,Nadogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-na-fruskoj-gori-siva-gradnja/Nk478zspU1F/
 5904,stan,prodaja,38.36,2021,,5,2,0,Etažno,2,1,47950.0,Zlatibor,Zova,U izgradnji,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/1250-eur--pdv-wm-supreme-zlatibor-novogradnja-prodaja-lux-stanova/Nki9ZLqTHAX/
+7588,stan,prodaja,38.36,2021,,5,2,0,Etažno,2,1,47950.0,Zlatibor,Zova,U izgradnji,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/1250-eur--pdv-wm-supreme-zlatibor-novogradnja-prodaja-lux-stanova/Nki9ZLqTHAX/
+7924,stan,prodaja,48.0,2021,,3,0,0,Centralno,2,1,47500.0,Novi Banovci,,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/stan-48m2-novi-banovci-karanovic-gradnja/NkCOrcZWV5V/
+8040,stan,prodaja,37.0,2021,,,,0,Ostalo,1,1,46250.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1231/NkfvK1bgy-l/
+8042,stan,prodaja,37.0,2021,,,1,0,Ostalo,1,1,46250.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1247/NknesOKw3Y7/
+8043,stan,prodaja,37.0,2021,,,0,0,Ostalo,1,1,46250.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1236/NkgIRlLGcpd/
+8049,stan,prodaja,37.0,2021,,,2,0,Ostalo,1,1,46250.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1254/Nkxen2xPd1X/
+8058,stan,prodaja,37.0,2021,,,,0,Ostalo,1,1,46250.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1261/NkU4cY9zStF/
+8045,stan,prodaja,36.0,2021,,,2,0,Ostalo,1,1,45000.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1253/NkiCk_9CaUu/
+8048,stan,prodaja,36.0,2021,,,2,0,Ostalo,1,1,45000.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1252/Nk3lLLWs--F/
+8051,stan,prodaja,36.0,2021,,,,0,Ostalo,1,1,45000.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1260/NknuzdnTXgs/
+8054,stan,prodaja,36.0,2021,,,,0,Ostalo,1,1,45000.0,Kopaonik,,Novogradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1259/NkH7RhOxhJ9/
+8201,stan,prodaja,32.0,2021,,2,0,1,Etažno,1,1,44700.0,Beograd,Ledine,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/ekskluzivni-uknjizeni-stanovi-u-novogradnji-kod-crkve-na-ledinama/NkOE0LRx12U/
+8038,stan,prodaja,35.0,2021,,,0,0,Ostalo,1,1,43750.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1234/NkYgABm8D2g/
+8039,stan,prodaja,35.0,2021,,,0,0,Ostalo,1,1,43750.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1235/NkyRdVE5fPX/
+8041,stan,prodaja,35.0,2021,,,1,0,Ostalo,1,1,43750.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1245/NkMWWzN3ko4/
+8044,stan,prodaja,35.0,2021,,,1,0,Ostalo,1,1,43750.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1246/NkhR08cp42C/
 6037,stan,prodaja,26.49,2021,,6,,0,Etažno,,,41000.0,Zlatibor,Centar,U izgradnji,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lux-novogradnja-akord-resort-centar/NkQ_6FQXB9c/
+8286,stan,prodaja,35.0,2021,,,0,0,Ostalo,2,,39500.0,Beograd,Krnja?a,Novogradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/krnjaca-35m2-pr-eg-novo/NkpSw4Mv4La/
+8061,stan,prodaja,26.0,2021,,,,0,Ostalo,1,1,32500.0,Kopaonik,,Novogradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/lisina-kopaonik-id1270/NkbSPOJpChH/
 6148,stan,prodaja,35.0,2021,,5,1,1,Etažno,2,1,1500.0,Zlatibor,Centar,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/prodajem-stan-350m-od-mone/Nk27K5Yw6RR/
+7749,stan,prodaja,35.0,2021,,5,1,1,Etažno,2,1,1500.0,Zlatibor,Centar,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/prodajem-stan-350m-od-mone/Nk27K5Yw6RR/
+7824,stan,prodaja,36.0,2021,,5,2,1,Etažno,2,1,1500.0,Zlatibor,Centar,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/prodajem-ususkan-stan-350m-od-mone/Nk1GwQ0HrrE/
+7821,stan,prodaja,,2021,,,,1,"Centralno, Etažno, Ostalo",,,,Pan?evo,Centar,U izgradnji,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/stambena-zgrada-u-izgradnji/NkWm07Nyz-Z/
+8067,stan,prodaja,51.0,2021,,5,1,0,Centralno,3,1,,Novi Sad,Grbavica,,Ne,,,https://www.nekretnine.rs/stambeni-objekti/stanovi/stan-sa-pdv-om-uskoro-useljiv/NkdI0_8T3Mq/

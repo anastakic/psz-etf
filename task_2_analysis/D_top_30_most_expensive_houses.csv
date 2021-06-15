@@ -1,31 +1,31 @@
 id,type,offer_type,square_meters,year_built,land_area,total_floors,floor,registered,heating_type,total_rooms,total_bathrooms,price,city,quarter,state,parking,elevator,balcony,webpage
+8981,kuca,prodaja,1290.0,,24300.0,,,1,"Etažno, Kamin",10,8,5500000.0,Beograd,Dedinje (RTV Pink),,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-kod-uzicke-luksuzna-vila-prodaja/NkSgi0EVngj/
+9378,kuca,prodaja,1150.0,2008,,,,1,Etažno,6,5,4650000.0,Beograd,Top?ider,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/60-dedinje-kod-uzicke-raskosna-luskuzna-vila-rezidencijalna-zona-27ari-id1563/NkSCwPlz9eA/
+8568,kuca,prodaja,1338.0,,1019.0,5,,0,,,,4000000.0,Beograd,Dedinje (25. maj),,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-vila-uzicka-ulica/NkSCyPrRWBh/
 6401,kuca,prodaja,1338.0,,1019.0,5,,0,,,,4000000.0,Beograd,Dedinje (25. maj),,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-vila-uzicka-ulica/Nk9HBzOwqA9/
+9379,kuca,prodaja,900.0,2006,,,,1,Etažno,6,6,3900000.0,Beograd,Top?ider,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/60-kuca-dedinje-ultra-luksuzna-moderna-vila-top-ponuda-id1546/NkXCWfWD_0H/
+9380,kuca,prodaja,620.0,2008,,,,1,Etažno,10,6,3800000.0,Beograd,Senjak,Novogradnja,Ne,Da,Ne,https://www.nekretnine.rs/stambeni-objekti/kuce/7-0-kuca-savski-venac-senjak-top-lokacija-ekskluzivna-ponuda-id1619/NkHei9BMpno/
+9051,kuca,prodaja,815.0,,,,,1,"Klima, Centralno",10,4,3500000.0,Beograd,Kaleni? pijaca,Standardna gradnja,Da,Da,Ne,https://www.nekretnine.rs/stambeni-objekti/kuce/kneginje-zorke-kod-krunske-ulice-id27527/NkqLhFG2vvR/
+9069,kuca,prodaja,850.0,,,,,1,"Klima, Etažno",6,4,3000000.0,Beograd,Senjak,Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/luksuzna-vanserijska-kuca-na-15ari-placa-id89993/Nkg9l33lKAO/
+9390,kuca,prodaja,1264.0,1981,,,,1,Etažno,8,8,2800000.0,Budva,,Standardna gradnja,Ne,Ne,Ne,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-crna-gora-budva-luksuzna-vila-ekskluzivna-lokacija-id1681/NkBjIjJH73D/
+9395,kuca,prodaja,600.0,2003,,,,1,"Klima, Etažno",6,7,2750000.0,Beograd,Senjak,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/senjak-rezidencijalna-zona-autenticna-ultra-luksuzna-vila-id1748/Nkd7gC3p90q/
+9342,kuca,prodaja,600.0,,,,,1,Etažno,7,3,2750000.0,Beograd,Senjak,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/senjak-sanje-zivanovic-600m210-ari-id2830/NkiX2hYvmIv/
+9373,kuca,prodaja,810.0,2014,,,,1,"Klima, Etažno",10,9,2500000.0,Beograd,Top?ider,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-luksuzna-vila-top-ponuda-id1427/Nkc8mo7KM6H/
+9150,kuca,prodaja,420.0,,,,,1,Etažno,10,1,2500000.0,Beograd,Dedinje (25. maj),Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/lux-vila-na-dedinju-id111133/Nk2c4auQbpV/
 6215,kuca,prodaja,285.0,,,,,1,Ostalo,9,,2500000.0,Beograd,Top?ider,Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-285m2-spratna-eg-uknj/NkfJg1I2dFl/
+9106,kuca,prodaja,650.0,,,,,0,,5,1,2500000.0,Beograd,Senjak,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/moderna-vila-u-rezidencijalnoj-zoni-id105997/NkHkvkC_f1b/
+8567,kuca,prodaja,285.0,,,,,1,Ostalo,9,,2500000.0,Beograd,Top?ider,Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-285m2-spratna-eg-uknj/Nk4QCLcmrkX/
+9010,kuca,prodaja,600.0,2004,,,0,1,"Klima, Etažno",10,4,2490000.0,Beograd,Dedinje (RTV Pink),Novogradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/diplomatska-kolonija-kuca-460240m2-id1410/NkHq4K9gVpI/
+9276,kuca,prodaja,880.0,,,,,1,Klima,9,,2200000.0,Beograd,Centar (uži),Izvorno stanje,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/stari-grad-politika-koste-stojanovica-90-880m2-2200000eur/NkJPTeZVsdh/
+9377,kuca,prodaja,830.0,,,,,1,"Klima, Etažno",9,6,2100000.0,Beograd,Senjak,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/savski-venac-senjak-ekskluzivna-luksuzna-vila-rezidencijalna-zona-id1528/NkpwqdxGHlD/
+8936,kuca,prodaja,726.0,,,,0,1,Ostalo,7,,2100000.0,Beograd,Avala,Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/726m2-4t-avala-kuca/NkZXzjQNuaz/
+8863,kuca,prodaja,400.0,1960,,,,1,Etažno,8,,2000000.0,Beograd,Dedinje (Beli dvor),Izvorno stanje,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-kuca-400-m2-9-ari-id1867/NkF4I2Cw5oF/
+9118,kuca,prodaja,600.0,,,,,1,Etažno,10,1,2000000.0,Beograd,Dedinje (Beli dvor),Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/u-jednoj-od-najlepsih-i-najatraktivnijih-ulica-na-dedinju-id106971/NkX11Q9ir0q/
+9034,kuca,prodaja,400.0,,,,,1,Klima,14,,2000000.0,Beograd,Dedinje (RTV Pink),Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/savski-venac-dedinje-140-400m2-2000000eur/Nkva4xXpKv2/
+8883,kuca,prodaja,400.0,1968,,,0,1,Ostalo,7,,2000000.0,Beograd,Dedinje (Beli dvor),Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/400m2-t-dedinje-kuca/Nk6mAjVMrAJ/
+9119,kuca,prodaja,350.0,,,,,1,Etažno,10,1,2000000.0,Beograd,Dedinje (25. maj),Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/lux-kuca-na-dedinju-id107571/NkzJR2zmcG2/
+9088,kuca,prodaja,370.0,,,,,1,Etažno,1,1,1999000.0,Beograd,Dedinje (25. maj),Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/top-lokacija-na-dedinju-id96429/Nk9n2NUTWOY/
 5606,kuca,prodaja,500.0,,,,,1,"Klima, Centralno, Ostalo",10,,1950000.0,Beograd,Dedinje (Beli dvor),Standardna gradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/120-dedinje-maglajska-500m2-maglajska/NkgnVfy5nRx/
+8466,kuca,prodaja,500.0,,,,,1,"Klima, Centralno, Ostalo",10,,1950000.0,Beograd,Dedinje (Beli dvor),Standardna gradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/120-dedinje-maglajska-500m2-maglajska/NkgnVfy5nRx/
 6156,kuca,prodaja,500.0,,,,,1,"Klima, Centralno, Ostalo",10,,1950000.0,Beograd,Dedinje (Beli dvor),Standardna gradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/120-dedinje-maglajska-500m2-maglajska/NkgnVfy5nRx/
-6254,kuca,prodaja,406.0,1980,,,0,1,,9,,1600000.0,Srbija,,Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/herceg-novi-406m2-3-etaze/Nk0JGKraKPf/
-6256,kuca,prodaja,377.0,1997,,,,0,Centralno,9,,1600000.0,Zlatibor,,Standardna gradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/zlatibor-377m2-2-etaze-lux-vila/NkplE9-a92e/
-6274,kuca,prodaja,550.0,,,,0,1,Ostalo,9,,1500000.0,Beograd,Senjak,Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/senjak-550m2-8-ari-placa-lux-rezidencija/NkdA0qiSiz0/
-6346,kuca,prodaja,470.0,,,,2,1,"Klima, Etažno",10,1,1250000.0,Beograd,Dedinje (Beli dvor),Standardna gradnja,Ne,Da,Ne,https://www.nekretnine.rs/stambeni-objekti/kuce/470m2-uknjizena-dedinje-kod-belog-dvora-slavka-curuvije-id1029/NkYaq9zZAXX/
-6309,kuca,prodaja,350.0,,,,,1,"Klima, Centralno",10,4,1200000.0,Beograd,Vra?ar (Hram),Standardna gradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/hram-svetog-save-dorda-vajferta-id29153/Nkby9KCEMAq/
-6262,kuca,prodaja,1030.0,2000,,,1,1,Ostalo,9,,1100000.0,Beograd,Lekino brdo,Novogradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/lekino-b-1030m2/Nk72b6c0Al9/
-5648,kuca,prodaja,500.0,2021,,,3,1,Centralno,16,7,1000000.0,Niš,Centar,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/medijana-nis-stambeno-poslovni-objekat-500/NkgSdUg33ei/
-6198,kuca,prodaja,500.0,2021,,,3,1,Centralno,16,7,1000000.0,Niš,Centar,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/medijana-nis-stambeno-poslovni-objekat-500/NkgSdUg33ei/
-6251,kuca,prodaja,200.0,1935,,,0,1,Ostalo,6,,1000000.0,Beograd,,Standardna gradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-200m2-5-ari-placa-stari-grad-kopitareva-gradina/Nk8kJHgAiss/
-6271,kuca,prodaja,336.0,,,,1,1,Ostalo,6,,950000.0,Beograd,Dedinje (Beli dvor),Standardna gradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-336m2-8-24-ara-eg-uknj/Nkqm173FDwQ/
-6239,kuca,prodaja,425.0,1958,,,0,1,Ostalo,9,,900000.0,Beograd,Top?ider,Standardna gradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-425m2-eg-uknj/NkHhkUBq_R2/
-6169,kuca,prodaja,480.0,,700.0,2,,1,"Centralno, Etažno",7,4,850000.0,Beograd,Savski venac,,Ne,Da,Ne,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-beli-dvor-kuca-480m2-lux/NkrPsBFYv9uY/
-5619,kuca,prodaja,480.0,,700.0,2,,1,"Centralno, Etažno",7,4,850000.0,Beograd,Savski venac,,Ne,Da,Ne,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-beli-dvor-kuca-480m2-lux/NkrPsBFYv9uY/
-6207,kuca,prodaja,,2008,915.0,,0,1,Centralno,,,770000.0,Slovenija,,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/prestizna-porodicna-kuca-u-novoj-gorici/2078537/
-5638,kuca,prodaja,350.0,,,2,,1,,5,1,699000.0,Beograd,Zvezdara,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/luksuzna-kuca-na-zvezdari-veljka-dugosevica-350m2/NkIO8ZiQ_W-/
-6188,kuca,prodaja,350.0,,,2,,1,,5,1,699000.0,Beograd,Zvezdara,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/luksuzna-kuca-na-zvezdari-veljka-dugosevica-350m2/NkIO8ZiQ_W-/
-6220,kuca,prodaja,896.0,,,,0,1,Ostalo,8,,650000.0,Beograd,Višnjica,Standardna gradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/visnjica-896m2-eg-uknj-8a/NkZaxKNpCYl/
-6307,kuca,prodaja,124.0,,,,,1,Centralno,,,650000.0,Novi Sad,Cara Dušana,,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/top-ponuda-top-lokacija-kontakt-ranko/NkkCtZ7Qf_T/
-5629,kuca,prodaja,564.0,,,,,1,Centralno,5,,650000.0,Beograd,Senjak,Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/savski-venac-senjak-blizina-majdana-kuca-od-564m2/NkS3p1WL7qE/
-6179,kuca,prodaja,564.0,,,,,1,Centralno,5,,650000.0,Beograd,Senjak,Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/savski-venac-senjak-blizina-majdana-kuca-od-564m2/NkS3p1WL7qE/
-6399,kuca,prodaja,265.0,,,4,,1,"Klima, Etažno",6,4,650000.0,Beograd,Dedinje (Beli dvor),Kompletna rekonstrukcija,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/luksuzna-kuca-na-dedinju/NkQP0ayMGpj/
-6341,kuca,prodaja,124.0,,69500.0,,,1,"Etažno, Podno",,,650000.0,Novi Sad,Cara Dušana,Novogradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/preporuka-0628737458/NktkB3Fccjs/
-6292,kuca,prodaja,450.0,,,,0,0,Ostalo,5,,630000.0,Beograd,Pregrevica,Standardna gradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/zemun-pregrevica-450m2-9ari-pr-i-eg/NkzgSN-tfTK/
-5615,kuca,prodaja,329.0,,300.0,3,,1,Etažno,6,2,598000.0,Beograd,Slavujev venac,Izvorno stanje,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/luksuzna-kuca-sa-placem-na-slavujevom-vencu-329m2/NkJtM3pGcZE/
-6165,kuca,prodaja,329.0,,300.0,3,,1,Etažno,6,2,598000.0,Beograd,Slavujev venac,Izvorno stanje,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/luksuzna-kuca-sa-placem-na-slavujevom-vencu-329m2/NkJtM3pGcZE/
-6205,kuca,prodaja,320.0,,1000.0,3,,1,,6,4,525000.0,Beograd,Jajinci,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/extra-extra-lux-kuca-bez-provizije/NkVT3vZn5yn/
+6411,kuca,prodaja,500.0,,,,,1,"Klima, Centralno, Ostalo",10,,1950000.0,Beograd,Dedinje (Beli dvor),Standardna gradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/120-dedinje-maglajska-500m2-maglajska/NkgnVfy5nRx/
