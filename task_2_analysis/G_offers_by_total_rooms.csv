@@ -1,31 +1,31 @@
-id,type,offer_type,square_meters,year_built,land_area,total_floors,floor,registered,heating_type,total_rooms,total_bathrooms,price,city,quarter,state,parking,elevator,balcony,webpage
-7810,stan,prodaja,25.0,2020,,7,3,1,TA pe?,112,1,35000.0,Kopaonik,,Novogradnja,Da,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/kopaonik-apartmani-milmari-n/NkolurnRj-8/
-8668,kuca,prodaja,700.0,2016,,,,0,,20,,160000.0,Beograd,Bor?a III,U izgradnji,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/palilula-borca-popova-bara-nova-3-200-700m2-160000eur/NkeyVR3o9qp/
-8490,kuca,prodaja,500.0,2021,,,3,1,Centralno,16,7,1000000.0,Niš,Centar,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/medijana-nis-stambeno-poslovni-objekat-500/NkgSdUg33ei/
-6198,kuca,prodaja,500.0,2021,,,3,1,Centralno,16,7,1000000.0,Niš,Centar,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/medijana-nis-stambeno-poslovni-objekat-500/NkgSdUg33ei/
-6443,kuca,prodaja,500.0,2021,,,3,1,Centralno,16,7,1000000.0,Niš,Centar,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/medijana-nis-stambeno-poslovni-objekat-500/NkgSdUg33ei/
-5648,kuca,prodaja,500.0,2021,,,3,1,Centralno,16,7,1000000.0,Niš,Centar,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/medijana-nis-stambeno-poslovni-objekat-500/NkgSdUg33ei/
-8686,kuca,prodaja,600.0,,,,,1,,15,,200000.0,Novi Sad,,Izvorno stanje,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/novi-sad-beocin-cerevic-heroja-rase-150-600m2-200000eur/NkTkXL3d0rb/
-9417,kuca,prodaja,760.0,,950.0,3,,1,"Centralno, Podno, Ostalo",15,6,,Smederevo,Centar,,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/kvalitetna-porodicna-kuca--viseporodicna-kuca--poslovni-objekat/NkhqUESfQRo/
-8879,kuca,izdavanje,1154.0,,,,0,0,Ostalo,15,,15000.0,Beograd,Dedinje (Beli dvor),Standardna gradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/1154m2-9t-dedinje-kuca/Nk9ujKEjip_/
-6340,kuca,izdavanje,600.0,,,1,,0,"Centralno, Klima",15,,7000.0,Beograd,Senjak,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-na-senjaku-lux-600m2-id-8160/NkWIzZVe_UP/
-9200,kuca,izdavanje,600.0,,,1,,0,"Centralno, Klima",15,,7000.0,Beograd,Senjak,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-na-senjaku-lux-600m2-id-8160/NkWIzZVe_UP/
-8978,kuca,prodaja,324.0,2001,42700.0,2,,0,Klima,14,6,260000.0,Kraši?i,,Standardna gradnja,Da,Ne,Ne,https://www.nekretnine.rs/stambeni-objekti/kuce/dve-kuce-bjelila-kod-krasica/Nkwx2G_tQKN/
-9034,kuca,prodaja,400.0,,,,,1,Klima,14,,2000000.0,Beograd,Dedinje (RTV Pink),Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/savski-venac-dedinje-140-400m2-2000000eur/Nkva4xXpKv2/
-8893,kuca,prodaja,335.0,,,,0,1,Ostalo,13,,520000.0,Beograd,Centar (uži),Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/335m2-centar-kuca/NkJHhoykPfc/
-8956,kuca,izdavanje,900.0,,16.0,,,1,,13,,3500.0,Beograd,Batajnica,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/batajnica-kuca-900m2-na-16ari-placa-majora-zorana-radosavljevica/Nkl5FBjtMdC/
-8957,kuca,prodaja,900.0,,16.0,,,1,,13,,580000.0,Beograd,Batajnica,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/batajnica-kuca-900m2-na-16ari-placa-majora-zorana-radosavljevica/NkiTyUgHlZr/
-9279,kuca,prodaja,519.0,,,,,1,,12,,990000.0,Tivat,,Standardna gradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/tivat-centar-120-519m2-990000eur/Nk7gb7GW1u1/
-9189,kuca,izdavanje,550.0,,,3,,0,"Centralno, Klima",12,,6000.0,Beograd,Dedinje (RTV Pink),Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-lux-kuca-550m2-120-id-8268-1/NkQ5syt-WkR/
-6329,kuca,izdavanje,550.0,,,3,,0,"Centralno, Klima",12,,6000.0,Beograd,Dedinje (RTV Pink),Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-lux-kuca-550m2-120-id-8268-1/NkQ5syt-WkR/
-9295,kuca,prodaja,550.0,,,,0,1,Etažno,12,4,1500000.0,Beograd,Senjak,Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/senjak-zanke-stokic-550m2-plac-7-5-ari-id1571/NkXPaVLRnDE/
-9374,kuca,prodaja,500.0,,,,,1,"Klima, Etažno",12,6,1400000.0,Beograd,Dedinje (RTV Pink),Izvorno stanje,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-diplomatska-kolonija-perfektna-kuca-id1457/Nky16dbOnW0/
-8994,kuca,izdavanje,720.0,,,3,,0,,12,,4000.0,Beograd,Voždovac,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-kod-trznog-centra-stadiona-720m2-id-11061-1/Nkyv1W3JcKe/
-8763,kuca,prodaja,800.0,2007,,,,0,Ostalo,12,,1250000.0,Beograd,Vra?ar (Centar),Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/vracar-cubura-janka-veselinovica-120-800m2-1250000eur/NkgeDg402gi/
-8664,kuca,prodaja,600.0,,,,,1,,12,,1250000.0,Beograd,Dedinje (RTV Pink),Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/savski-venac-dedinje-koste-zivkovica-120-600m2-1250000eur/NkE7hwpiQ_X/
-8955,kuca,prodaja,900.0,,7.3,,,1,,12,,530000.0,Beograd,Batajnica,Izvorno stanje,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/batajnica-vila-900m2-73ara-placa/NkrS7ZmI3ms/
-9154,kuca,prodaja,192.0,,,,,1,Etažno,12,4,350000.0,Beograd,Cerak,Standardna gradnja,Ne,Ne,Ne,https://www.nekretnine.rs/stambeni-objekti/kuce/zasebna-vertikala-kuce-sa-4-stana-na-4-etaze-id111470/NkkOs_cXNLS/
-9278,kuca,izdavanje,280.0,,,,,0,,12,,1300.0,Beograd,Voždovac,Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/vozdovac-farmaceutski-fakultet-hajduk-stojka-120-280m2-1300eur/Nkb_Vhd5-gh/
-8880,kuca,prodaja,510.0,1965,,,0,1,Centralno,12,,890000.0,Beograd,Dedinje (Beli dvor),Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/510m2-t-dedinje-kuca/NkYniy-UoQF/
-9391,kuca,prodaja,610.0,,,,,0,"Klima, Centralno",12,13,1500000.0,Beograd,Stari Grad,Izvorno stanje,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-stari-grad-dorcol-luksuzno-renovirana-garni-hotel-id1697/NkwyuQw07uD/
-8764,kuca,prodaja,414.0,,,,,0,"Klima, Centralno",12,,360000.0,Beograd,Višnji?ka banja,Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/palilula-visnjicka-banja-vojislava-jovanovica-maramba-120-414m2-360000eur/NktmpcL0JxN/
+id,type,sell_or_rent,size,price,city,part_of_city,land_size,floor,total_floors,num_of_rooms,num_of_bathrooms,is_registered,parking,elevator,balcony,heating_type,year_built,construction_type,url
+5710,1,0,900,,Beograd,Zemun (Kalvarija),,,2,26,6,0,,0,1,Plinska pec,2009,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/izdavanjeprodaja-kuca-beograd-zemun-kalvarija-2800-eur/NkDOKSj0TrS/
+5283,0,1,1338,4000000.0,Beograd,Dedinje (25. maj),1019,,5,20,,0,,0,1,,,,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-vila-uzicka-ulica/NkFVbUlkq1k/
+6953,1,1,550,195000.0,Niš,Durlan,400,,4,20,4,1,,0,1,"TA pec, Etažno, Ostalo",1980,Izvorno stanje,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-u-durlanu/Nkt9yotnWXm/
+5800,0,1,700,160000.0,Beograd,Borca III,,,,20,,0,,0,1,,2016,U izgradnji,https://www.nekretnine.rs/stambeni-objekti/kuce/palilula-borca-popova-bara-nova-3-200-700m2-160000eur/NkANZc5hU9S/
+6792,0,0,900,3000.0,Beograd,Zemun (Kalvarija),,2,,18,6,0,,0,1,Ostalo,2020,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-za-izdavanje-zemun-kalvarija-900m2-id-3144/NkPvmNZMJVH/
+445,0,1,500,1000000.0,Niš,Centar,,3,,16,7,1,,,,Centralno,2021,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/medijana-nis-stambeno-poslovni-objekat-500/NkgSdUg33ei/
+5818,0,1,600,200000.0,Novi Sad,,,,,15,,1,,0,1,,,Izvorno stanje,https://www.nekretnine.rs/stambeni-objekti/kuce/novi-sad-beocin-cerevic-heroja-rase-150-600m2-200000eur/NkAdfUBPUjf/
+6666,0,1,760,,Smederevo,Centar,950,,3,15,6,1,,0,1,"Centralno, Podno, Ostalo",,,https://www.nekretnine.rs/stambeni-objekti/kuce/kvalitetna-porodicna-kuca--viseporodicna-kuca--poslovni-objekat/NkhqUESfQRo/
+6634,0,0,600,7000.0,Beograd,Senjak,,,1,15,,0,,,,"Centralno, Klima",,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-na-senjaku-lux-600m2-id-8160/NkWIzZVe_UP/
+6135,0,1,360,270000.0,Zlatibor,Centar,,1,,15,3,1,,0,1,TA pec,1960,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/zlatibor-kuca-sa-placem-id1022/NkIoUQ2aDQZ/
+442,1,1,406,2600.0,Beograd,Senjak,340,4,4,14,4,1,,0,1,"Podno, Klima, Ostalo, Centralno",2018,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/senjak-centar-novi-kvalitetni-funkcionalni-stanovi-od-7808m2-10053m2-u-modernoj-zgradi-sa-bazenom-od-14m-parking-mestima-na-prodaju-od-investitora/102503/
+6121,0,1,400,2000000.0,Beograd,Dedinje (RTV Pink),,,,14,,1,,0,1,Klima,,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/savski-venac-dedinje-140-400m2-2000000eur/NkXuv3t9GQd/
+5525,0,1,483,270000.0,Beograd,Banjica,,,,14,,1,,0,1,Klima,,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/vozdovac-banjica-porodice-trajkovic-140-483m2-270000eur/NkiweQrdRMx/
+5796,0,1,600,75000.0,Niš,Branko Bjegovic,523,0,3,14,3,1,,0,1,,2005,U izgradnji,https://www.nekretnine.rs/stambeni-objekti/kuce/novogradnja-visenamenska-porodicna-kuca-uknjizeno-11/NkGwuXayVM8/
+6581,0,1,324,260000.0,Krašici,,42700,,2,14,6,0,,0,0,Klima,2001,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/dve-kuce-bjelila-kod-krasica/Nkwx2G_tQKN/
+6560,0,0,900,3500.0,Beograd,Batajnica,16,,,13,,1,,0,1,,,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/batajnica-kuca-900m2-na-16ari-placa-majora-zorana-radosavljevica/Nkl5FBjtMdC/
+5307,0,1,770,240000.0,Beograd,Glumcevo brdo,,,,13,,1,,0,1,Etažno,,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/barajevo-glumcevo-brdo-vucinac-130-770m2-240000eur/NktOtYfaF34/
+6561,0,1,900,580000.0,Beograd,Batajnica,16,,,13,,1,,0,1,,,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/batajnica-kuca-900m2-na-16ari-placa-majora-zorana-radosavljevica/NkiTyUgHlZr/
+5495,0,1,340,1125000.0,Beograd,Dedinje (RTV Pink),,,,13,,1,,0,1,"Klima, Centralno",,Izvorno stanje,https://www.nekretnine.rs/stambeni-objekti/kuce/savski-venac-dedinje-majora-jagodica13-130-340m2-1125000eur/NkVDjcVBkEv/
+6364,0,1,355,419000.0,Beograd,Banjica,,0,,13,8,1,,0,1,Etažno,,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/banjica-355m2-iv-nivoa-eg-67ari-uk-id72552/Nk6kvesZXZF/
+5898,0,1,414,360000.0,Beograd,Višnjicka banja,,,,12,,0,,0,1,"Klima, Centralno",,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/palilula-visnjicka-banja-vojislava-jovanovica-maramba-120-414m2-360000eur/NkiCjCl6SEk/
+6133,0,1,420,520000.0,Beograd,Stari Grad,,1,,12,5,1,,0,1,"Klima, Etažno",1920,Izvorno stanje,https://www.nekretnine.rs/stambeni-objekti/kuce/centar-stambeno-poslovna-kuca-sa-bastom-id1052/NkB3z4LcWpyE/
+6559,0,1,900,530000.0,Beograd,Batajnica,7,,,12,,1,,0,1,,,Izvorno stanje,https://www.nekretnine.rs/stambeni-objekti/kuce/batajnica-vila-900m2-73ara-placa/NkrS7ZmI3ms/
+5947,0,1,550,1500000.0,Beograd,Senjak,,0,,12,4,1,,0,1,Etažno,,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/senjak-zanke-stokic-550m2-plac-7-5-ari-id1571/NkMC3yHTIHQ/
+5799,0,1,600,1250000.0,Beograd,Dedinje (RTV Pink),,,,12,,1,,0,1,,,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/savski-venac-dedinje-koste-zivkovica-120-600m2-1250000eur/NkDZmW7xNsT/
+6045,0,1,610,1500000.0,Beograd,Stari Grad,,,,12,13,0,,0,1,"Klima, Centralno",,Izvorno stanje,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-stari-grad-dorcol-luksuzno-renovirana-garni-hotel-id1697/NkJDHvqenUd/
+5651,0,1,192,350000.0,Beograd,Cerak,,,,12,4,1,,0,0,Etažno,,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/zasebna-vertikala-kuce-sa-4-stana-na-4-etaze-id111470/NkSh3CV-doc/
+6028,0,1,500,1400000.0,Beograd,Dedinje (RTV Pink),,,,12,6,1,,0,1,"Klima, Etažno",,Izvorno stanje,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-diplomatska-kolonija-perfektna-kuca-id1457/NkJZsuO19Qu/
+6363,0,1,250,450000.0,Beograd,Zemun (Kalvarija),,0,,12,4,1,,0,0,TA pec,,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/zemun-kalvarija-250m2-pri-ta-5ari-uk-id72296/Nk5YbUF5qyQ/
+6320,0,1,380,1050000.0,Beograd,Dedinje (Beli dvor),,0,,12,3,1,,0,1,Etažno,,Izvorno stanje,https://www.nekretnine.rs/stambeni-objekti/kuce/dedinje-380m2-prii-eg-6ari-uk-id62283/NkhccPOICIR/

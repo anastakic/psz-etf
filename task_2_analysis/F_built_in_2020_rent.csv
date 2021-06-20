@@ -1,2 +1,5 @@
-id,type,offer_type,square_meters,year_built,land_area,total_floors,floor,registered,heating_type,total_rooms,total_bathrooms,price,city,quarter,state,parking,elevator,balcony,webpage
-6805,stan,izdavanje,57.0,2021,,,16,1,Centralno,2,,850.0,Beograd,Beograd na vodi,Standardna gradnja,Ne,Da,Da,https://www.nekretnine.rs/stambeni-objekti/stanovi/beograd-na-vodi-57m2-xvi-cg-uknj/NkQV59HJ8jr/
+id,type,sell_or_rent,size,price,city,part_of_city,land_size,floor,total_floors,num_of_rooms,num_of_bathrooms,is_registered,parking,elevator,balcony,heating_type,year_built,construction_type,url
+7584,1,0,57,850.0,Beograd,Beograd na vodi,,16,,2,,1,,1,1,Centralno,2021,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/beograd-na-vodi-57m2-xvi-cg-uknj/NkPCy2hn38t/
+8084,1,0,57,850.0,Beograd,Beograd na vodi,,16,,2,,1,0,1,1,Centralno,2021,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/beograd-na-vodi-57m2-xvi-cg-uknj/NkPCy2hn38t/
+7722,1,0,110,800.0,Beograd,Centar (uži),,6,,4,2,0,,1,1,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/nov-stan-za-izdavanje-centar-id615463/Nks1DGGrpLO/
+8222,1,0,110,800.0,Beograd,Centar (uži),,6,,4,2,0,0,1,1,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/nov-stan-za-izdavanje-centar-id615463/Nks1DGGrpLO/

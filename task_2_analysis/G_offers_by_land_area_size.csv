@@ -1,31 +1,31 @@
-id,type,offer_type,square_meters,year_built,land_area,total_floors,floor,registered,heating_type,total_rooms,total_bathrooms,price,city,quarter,state,parking,elevator,balcony,webpage
-8929,kuca,prodaja,70.0,,548800.0,,,0,,,,206000.0,Sremski Karlovci,Banstol,,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/banstol/NkvtTnx_tj1/
-9197,kuca,prodaja,65.0,,270000.0,,,1,Etažno,3,1,46350.0,?ortanovci,,Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna-prica-/Nk5pZWEZ9ER/
-6337,kuca,prodaja,65.0,,270000.0,,,1,Etažno,3,1,46350.0,?ortanovci,,Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna-prica-/Nk5pZWEZ9ER/
-9412,kuca,prodaja,145.0,,260000.0,,,1,"Etažno, Podno, Centralno",,,113300.0,Ravno Selo,,,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/raj-na-zemlji-kontakt-ranko/NkPf7XwA85e/
-8990,kuca,prodaja,370.0,,148900.0,,,1,Etažno,5,2,77250.0,Beška,,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/spratna-dvojna-kuca/NkIaXLFGTv6/
-6323,kuca,prodaja,223.0,,128500.0,3,,1,Centralno,5,3,235000.0,Sremska Kamenica,Paragovo,Novogradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna-prica-/Nk-r3hjcZ3W/
-9183,kuca,prodaja,223.0,,128500.0,3,,1,Centralno,5,3,235000.0,Sremska Kamenica,Paragovo,Novogradnja,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna-prica-/Nk-r3hjcZ3W/
-6343,kuca,prodaja,223.0,,128500.0,,,1,Etažno,,,235000.0,Sremska Kamenica,Paragovo,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/fantasticna-sa-bazenom/NkiqaudbIka/
-9203,kuca,prodaja,223.0,,128500.0,,,1,Etažno,,,235000.0,Sremska Kamenica,Paragovo,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/fantasticna-sa-bazenom/NkiqaudbIka/
-6330,kuca,prodaja,65.0,,107100.0,,,1,,,,133900.0,Sremska Kamenica,?ardak,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/renovirana-/NkKskMwn114/
-9190,kuca,prodaja,65.0,,107100.0,,,1,,,,133900.0,Sremska Kamenica,?ardak,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/renovirana-/NkKskMwn114/
-8663,kuca,prodaja,258.0,1990,100000.0,,,1,TA pe?,7,3,95000.0,Beograd,Barajevo,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/barajevo-lisovic-kuca-za-odmor-medu-cetinarima/NkIeSE5EOE1/
-6208,kuca,prodaja,110.0,,96300.0,1,,1,Etažno,5,2,97850.0,Titel,,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-sa-prostranim-placem/Nk1bsfrHggO/
-9165,kuca,prodaja,110.0,,96300.0,1,,1,Etažno,5,2,97850.0,Titel,,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-sa-prostranim-placem/Nk1bsfrHggO/
-8960,kuca,prodaja,165.0,,81100.0,,,1,,,,412000.0,Sremska Kamenica,Popovica,Novogradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-sa-bazenom-/NkZJE5U6Gb5/
-8526,kuca,prodaja,418.0,,74000.0,1,,0,Etažno,4,3,488020.0,Sremska Kamenica,Popovica,Novogradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/fenomenalna-kuca-na-popovici/Nkd8vqRADcl/
-8942,kuca,prodaja,418.0,,74000.0,,,1,,,,488020.0,Sremska Kamenica,Popovica,Novogradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/dobra-ponuda-0652403-321/NkqiAWqwK74/
-9409,kuca,prodaja,124.0,,69500.0,2,,1,Podno,7,2,650000.0,Novi Sad,Cara Dušana,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/savrsena-kuca/NkTW8zHMr7O/
-6341,kuca,prodaja,124.0,,69500.0,,,1,"Etažno, Podno",,,650000.0,Novi Sad,Cara Dušana,Novogradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/preporuka-0628737458/NktkB3Fccjs/
-9414,kuca,prodaja,124.0,,69500.0,2,,0,Etažno,8,,650000.0,Novi Sad,Cara Dušana,,Ne,Ne,Ne,https://www.nekretnine.rs/stambeni-objekti/kuce/jedinstvena-kuca/NkoqZ56f1AV/
-9419,kuca,prodaja,124.0,,69500.0,,,1,,,,650000.0,Novi Sad,Cara Dušana,,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/lux-u-cara-dusana-0648222130/NkJaX43y8Te/
-9434,kuca,prodaja,124.0,,69500.0,,,1,,8,,650000.0,Novi Sad,Adamovi?evo naselje,Novogradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/jedinstveno-u-novom-sadu/NkgrmcLAA-4/
-9201,kuca,prodaja,124.0,,69500.0,,,1,"Etažno, Podno",,,650000.0,Novi Sad,Cara Dušana,Novogradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/preporuka-0628737458/NktkB3Fccjs/
-9418,kuca,prodaja,136.0,,66900.0,,,1,,,,144200.0,Be?ej,,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/perfektna-kuca/Nk_Mw4Ux7V-/
-9167,kuca,prodaja,250.0,,66800.0,,,1,,,,339900.0,Sremska Kamenica,Centar,,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna-top-ponuda-kontakt-ranko/Nk04mD4scjZ/
-6361,kuca,prodaja,136.0,,66800.0,,,1,Etažno,5,2,144200.0,Be?ej,,Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/prelepa-porodicna-kuca/NkOXm4kHNGA/
-9410,kuca,prodaja,136.0,,66800.0,,,1,Etažno,2,2,144200.0,Be?ej,,Standardna gradnja,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-bez-ulaganja/NkLScn1203W/
-9413,kuca,prodaja,250.0,,66800.0,,,1,,,,339900.0,Sremska Kamenica,Centar,,Ne,,,https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna-nekretnina-u-samom-centru/NkjoegMQe5q/
-9221,kuca,prodaja,136.0,,66800.0,,,1,Etažno,5,2,144200.0,Be?ej,,Standardna gradnja,Da,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/prelepa-porodicna-kuca/NkOXm4kHNGA/
-6257,kuca,prodaja,250.0,,66800.0,,,1,,,,339900.0,Sremska Kamenica,Centar,,Ne,Ne,Da,https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna-top-ponuda-kontakt-ranko/Nk04mD4scjZ/
+id,type,sell_or_rent,size,price,city,part_of_city,land_size,floor,total_floors,num_of_rooms,num_of_bathrooms,is_registered,parking,elevator,balcony,heating_type,year_built,construction_type,url
+7015,0,1,117,442900.0,Sremski Karlovci,Stražilovo,1156200,,,,,0,,,,,,,https://www.nekretnine.rs/stambeni-objekti/kuce/savrsen-plac-0655491260/NkHdMWuewrH/
+5447,0,1,724,463500.0,Titel,,1151800,,,,,1,,,,,,Izvorno stanje,https://www.nekretnine.rs/stambeni-objekti/kuce/imanje-sirok-asortiman-korisnog-zemljista-i-delatnostititel/Nkho-cOONew/
+6762,0,1,300,200000.0,Novi Sad,Rimski šancevi,580000,,2,6,3,0,,0,1,"Centralno, Klima, Etažno, Pec",2000,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/novi-sad-cenejski-salas-sa-kafanom-hitno-cena-nije-fiksna/NkI2wIPzC5v/
+6543,0,1,70,206000.0,Sremski Karlovci,Banstol,548800,,,,,0,,,,,,,https://www.nekretnine.rs/stambeni-objekti/kuce/banstol/NkvtTnx_tj1/
+6807,0,1,270,1287500.0,Sremska Kamenica,Centar,380000,,,,,1,,0,1,,,,https://www.nekretnine.rs/stambeni-objekti/kuce/fantasticna-kuca-top-ponuda-kontakt-ranko/NkI94N5q1B_/
+6897,0,1,437,1024900.0,Novi Sad,Veternik,360000,,,7,3,1,,,,Etažno,,,https://www.nekretnine.rs/stambeni-objekti/kuce/luksuzna-kuca-sa-bazenom-veternicka-rampa-premija-/Nk73lE-JVSK/
+7115,0,1,437,1024900.0,Veternik,Veternicka rampa,320000,,,8,4,1,,,,Etažno,,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/fantasticna-nova-kuca-bazen-veternicka-rampa-021425-112/NkVrCJrXTKx/
+7093,0,1,437,1024900.0,Novi Sad,Veternik,320000,,,,,0,,,,,,,https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-na-velikom-placu-retko-/NkpugLyZgwz/
+7117,0,1,437,1024900.0,Novi Sad,Veternik,320000,,,,,0,,0,1,Etažno,,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/lux-lux/NkMrPkggJ7R/
+6631,0,1,65,46350.0,Cortanovci,,270000,,,3,1,1,,0,1,Etažno,,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna-prica-/Nk5pZWEZ9ER/
+7013,0,1,246,615320.0,Irig,,263100,,,,,1,,,,,,,https://www.nekretnine.rs/stambeni-objekti/kuce/bozanstvena-nekretnina-0648222130/NkBnNnU3rNm/
+6862,0,1,246,615320.0,Irig,,263100,,,,,1,,,,,,,https://www.nekretnine.rs/stambeni-objekti/kuce/oaza-u-irigu-0648222130/Nk2VAEivw6m/
+7063,0,1,145,113300.0,Ravno Selo,,260000,,,,,1,,0,1,"Centralno, Etažno, Podno",,,https://www.nekretnine.rs/stambeni-objekti/kuce/top-top-top-kontakt-ranko-/NkDNRUz-HOM/
+6661,0,1,145,113300.0,Ravno Selo,,260000,,,,,1,,0,1,"Etažno, Podno, Centralno",,,https://www.nekretnine.rs/stambeni-objekti/kuce/raj-na-zemlji-kontakt-ranko/NkPf7XwA85e/
+6755,0,1,217,164800.0,Rumenka,,248200,,,5,2,1,,0,1,,,,https://www.nekretnine.rs/stambeni-objekti/kuce/rumenka-odlicna-kuca/Nk68--GFShW/
+5272,0,1,117,133900.0,Petrovaradin,Novi majur,216200,,,,,0,,0,1,,,,https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna-kuca-u-petrovaradinu-/Nkd2yXhVz8v/
+6509,0,1,105,166860.0,Kac,,204500,,,,,1,,,,,,,https://www.nekretnine.rs/stambeni-objekti/kuce/hitna-prodaja-kuce-u-centru-kaca-sa-lokalom-i-vocnjakom-kuca-je-izgradjena-devedesetih-godina/NkB-czNRdbu/
+6076,0,1,350,257500.0,Sremska Kamenica,Paragovo,178100,,1,6,2,1,,0,1,Etažno,,,https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna-kuca-u-paragovu/NkXnvDepSi4/
+5280,0,1,194,118450.0,Sremska Kamenica,Popovica,175300,,2,5,3,1,,0,1,Etažno,2000,,https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna-uknjizena-kuca-sa-bazenom/NkVMegPR19m/
+5427,0,1,194,118450.0,Sremska Kamenica,Popovica,175200,,1,5,2,1,,0,0,Etažno,,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/popovica-kuca/NkoaWceceFG/
+5665,0,1,460,471200.0,Novi Sad,Adice,161400,,,,,1,,,,,,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna-/Nkythj5nX8t/
+6589,0,1,370,77250.0,Beška,,148900,,,5,2,1,,,,Etažno,,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/spratna-dvojna-kuca/NkIaXLFGTv6/
+5416,0,1,310,77250.0,Beška,,148900,,2,,3,1,,0,1,,,,https://www.nekretnine.rs/stambeni-objekti/kuce/beska-odlicna-ponuda/NkvWoyZ12Oy/
+7090,0,1,129,103000.0,Cortanovci,,145600,,,,,1,,,,,,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna-kuca-/Nk8UO0oRaUH/
+6822,0,1,33,22260.0,Beocin,Dunav naselje,139000,,,,,1,,,,,,,https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna/NknIMsIsG32/
+6882,0,1,350,72100.0,Žabalj,,135000,,,,,0,,,,,,,https://www.nekretnine.rs/stambeni-objekti/kuce/komforna-/NkpPhaCBuaI/
+6887,0,1,170,118450.0,Cenej,,135000,,,,,0,,,,,,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/bez-ulaganja-/NkNNGlzPWvu/
+6846,0,1,130,80000.0,Plandište,,135000,,1,5,1,1,,0,1,"Plinska pec, Pec",1987,Izvorno stanje,https://www.nekretnine.rs/stambeni-objekti/kuce/spratna-kuca-od-130kvm-sa-5-soba-na-placu-od-1350kvm-sa-dosta-pratecih-objekata/NkxwWCxYszu/
+6758,0,1,223,235000.0,Sremska Kamenica,Paragovo,128500,,2,,3,1,,0,1,Etažno,,,https://www.nekretnine.rs/stambeni-objekti/kuce/paragovo-fenomenalna-kuca/NkRMIfMw2Gb/
+6637,0,1,223,235000.0,Sremska Kamenica,Paragovo,128500,,,,,1,,0,1,Etažno,,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/kuce/fantasticna-sa-bazenom/NkiqaudbIka/

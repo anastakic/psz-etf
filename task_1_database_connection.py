@@ -32,31 +32,38 @@ class DataBase:
         try:
             return float(value)
         except ValueError:
-            return '"{}"'.format(value)
+            # encoding problems
+            value = str(value).replace('č', 'c')
+            value = str(value).replace('ć', 'c')
+            value = str(value).replace('đ', 'dj')
+            value = str(value).replace('Č', 'C')
+            value = str(value).replace('Ć', 'C')
+            value = str(value).replace('Đ', 'Dj')
+            return '"{}"'.format(str(value))
 
-    def add_data(self, data):
+    def add_query(self, data):
         insert_into_query = \
-            'INSERT INTO `psz_db`.`realty`' \
-            '(`type`,' \
-            '`offer_type`,' \
-            '`heating_type`,' \
-            '`city`,' \
-            '`quarter`,' \
-            '`webpage`,' \
-            '`state`,' \
-            '`parking`,' \
-            '`elevator`,' \
-            '`balcony`,' \
-            '`registered`,' \
-            '`square_meters`,' \
-            '`year_built`,' \
-            '`land_area`,' \
-            '`total_floors`,' \
-            '`floor`,' \
-            '`total_rooms`,' \
-            '`total_bathrooms`,' \
-            '`price`)' \
-            'VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)' \
+            'INSERT INTO `psz_db`.`real_estate`' \
+            '(`type`, ' \
+            '`sell_or_rent`, ' \
+            '`size`, ' \
+            '`price`, ' \
+            '`city`, ' \
+            '`part_of_city`, ' \
+            '`land_size`, ' \
+            '`floor`, ' \
+            '`total_floors`, ' \
+            '`num_of_rooms`, ' \
+            '`num_of_bathrooms`, ' \
+            '`is_registered`, ' \
+            '`parking`, ' \
+            '`elevator`, ' \
+            '`balcony`, ' \
+            '`heating_type`, ' \
+            '`year_built`, ' \
+            '`construction_type`, ' \
+            '`url`) ' \
+            'VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);' \
             % (tuple([self.parse_value(single_data) for single_data in data]))
 
         print(insert_into_query)
@@ -84,4 +91,3 @@ class DataBase:
             if connection:
                 cursor.close()
                 connection.close()
-
