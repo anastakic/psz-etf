@@ -3,6 +3,8 @@ import csv
 import matplotlib.pyplot as plt  # pip install matplotlib
 from matplotlib import ticker
 import numpy as np
+import pandas as pd
+from pandas import DataFrame
 
 from task_1_database_connection import DataBase
 
@@ -23,7 +25,7 @@ class DataVisualization:
         print('****************')
 
     @staticmethod
-    def show_visualization(file, title, bar_labels=[], bottom=0):
+    def show_visualization_old(file, title, bar_labels=[], bottom=0):
         x = []
         y = []
         x_label = y_label = ''
@@ -53,8 +55,38 @@ class DataVisualization:
         plt.savefig(file[:-4])
         plt.close()
 
+    @staticmethod  # new
+    def show_visualization(df, path, title, bar_labels=[], bottom=0):
+        x = []
+        y = []
+        x_label = y_label = ''
+
+        print(df)
+
+        for i, row in enumerate(df):
+            if i == 0:
+                x_label = row[0]
+                y_label = row[1]
+            else:
+                x.append(row[0])
+                y.append(int(row[1]))
+        
+        plt.figure(constrained_layout=True)
+        for i, xx in enumerate(bar_labels):
+            plt.text(i - .1, y[i] + 10, '{}%'.format(str(bar_labels[i])))
+        plt.bar(x, y, color='g', width=0.5, label="Offer number", bottom=bottom)
+        plt.xlabel(str(x_label))
+        plt.xticks(rotation=75)
+        plt.minorticks_on()
+        plt.ylabel(str(y_label))
+        plt.title(title)
+        plt.legend(loc='best', fontsize=15)
+        # plt.show()
+        plt.savefig(path)
+        plt.close()
+
     @staticmethod
-    def show_visualization_two_charts(file, title, bottom=0):
+    def show_visualization_two_charts(df, path, title, bottom=0):
 
         values_sell = []
         values_rent = []
@@ -62,16 +94,13 @@ class DataVisualization:
         pct_rent = []
         cities = []
 
-        with open(file, 'r') as csv_file:
-            plots = csv.reader(csv_file)
-
-            for i, row in enumerate(plots):
-                if i > 0:
-                    values_sell.append(int(row[1]))
-                    values_rent.append(int(row[3]))
-                    pct_sell.append(round(float(row[2])))
-                    pct_rent.append(round(float(row[4])))
-                    cities.append(row[0])
+        for i, row in enumerate(df):
+            if i > 0:
+                values_sell.append(int(row[1]))
+                values_rent.append(int(row[3]))
+                pct_sell.append(round(float(row[2])))
+                pct_rent.append(round(float(row[4])))
+                cities.append(row[0])
 
         x = np.arange(len(cities))  # the label locations
         width = 0.35  # the width of the bars
@@ -92,19 +121,18 @@ class DataVisualization:
         ax.legend(loc='best', fontsize=15)
 
         fig.tight_layout()
-        plt.savefig(file[:-4])
+        plt.savefig(path)
         plt.close()
 
     @staticmethod
     def task_a(cursor):
         query = "select part_of_city as `Part of Belgrade`, count(*) as `Total offers` from real_estate where city like 'Beograd' and part_of_city is not NULL group by part_of_city order by 2 desc limit 10;"
         cursor.execute(query)
-        with open("task_3_visualization/A_top_10_parts_of_Belgrade.csv", "w", newline='') as csv_file:
-            csv_writer = csv.writer(csv_file)
-            csv_writer.writerow([i[0] for i in cursor.description])  # write headers
-            csv_writer.writerows(cursor)
 
-        DataVisualization.show_visualization("task_3_visualization/A_top_10_parts_of_Belgrade.csv",
+        df = [tuple(i[0] for i in cursor.description)]  # headers
+        df += cursor.fetchall()  # data
+
+        DataVisualization.show_visualization(df, "task_3_visualization/A_top_10_parts_of_Belgrade",
                                              'top_10_parts_of_Belgrade')
 
     @staticmethod
@@ -119,12 +147,11 @@ class DataVisualization:
             "union select '>= 111 m²', count(*) from real_estate where size >= 111 and sell_or_rent = 1 and `type` = 1;"
 
         cursor.execute(query)
-        with open("task_3_visualization/B_offers_by_apartment_size.csv", "w", newline='') as csv_file:
-            csv_writer = csv.writer(csv_file)
-            csv_writer.writerow([i[0] for i in cursor.description])  # write headers
-            csv_writer.writerows(cursor)
 
-        DataVisualization.show_visualization("task_3_visualization/B_offers_by_apartment_size.csv",
+        df = [tuple(i[0] for i in cursor.description)]  # headers
+        df += cursor.fetchall()  # data
+
+        DataVisualization.show_visualization(df, "task_3_visualization/B_offers_by_apartment_size",
                                              'offers_by_apartment_size')
 
     @staticmethod
@@ -140,23 +167,23 @@ class DataVisualization:
             "union select '2011-2020', count(*) from real_estate where year_built > 2010 and year_built <= 2020;"
 
         cursor.execute(query)
-        with open("task_3_visualization/C_offers_by_build_year.csv", "w", newline='') as csv_file:
-            csv_writer = csv.writer(csv_file)
-            csv_writer.writerow([i[0] for i in cursor.description])  # write headers
-            csv_writer.writerows(cursor)
 
-        DataVisualization.show_visualization("task_3_visualization/C_offers_by_build_year.csv", 'offers_by_build_year')
+        df = [tuple(i[0] for i in cursor.description)]  # headers
+        df += cursor.fetchall()  # data
+
+        DataVisualization.show_visualization(df, "task_3_visualization/C_offers_by_build_year",
+                                             'offers_by_build_year')
 
         # order by construction_type
-        query = "select construction_type, count(*) as `total offers` from real_estate where construction_type is not null group by construction_type order by construction_type;"
+        query = "select construction_type, count(*) as `total offers` from real_estate where construction_type is " \
+                "not null group by construction_type order by construction_type;"
 
         cursor.execute(query)
-        with open("task_3_visualization/C_offers_by_real_estate_state.csv", "w", newline='') as csv_file:
-            csv_writer = csv.writer(csv_file)
-            csv_writer.writerow([i[0] for i in cursor.description])  # write headers
-            csv_writer.writerows(cursor)
 
-        DataVisualization.show_visualization("task_3_visualization/C_offers_by_real_estate_state.csv",
+        df = [tuple(i[0] for i in cursor.description)]  # headers
+        df += cursor.fetchall()  # data
+
+        DataVisualization.show_visualization(df, "task_3_visualization/C_offers_by_real_estate_state",
                                              'offers_by_real_estate_state')
 
     @staticmethod
@@ -169,15 +196,15 @@ class DataVisualization:
             "	(select count(*) from real_estate where city = r.city) as `Total`" \
             "from real_estate r group by city order by 4 desc limit 5" \
             ")" \
-            "select `City`, `Sell`, `Sell`/`Total`*100 as `Sell pct.`, `Rent`, `Rent`/`Total`*100 as `Rent pct.` from temp;"
+            "select `City`, `Sell`, `Sell`/`Total`*100 as `Sell pct.`, `Rent`, " \
+            "`Rent`/`Total`*100 as `Rent pct.` from temp;"
 
         cursor.execute(query.format(1))
-        with open("task_3_visualization/D_top_5_cities_ratio.csv", "w", newline='') as csv_file:
-            csv_writer = csv.writer(csv_file)
-            csv_writer.writerow([i[0] for i in cursor.description])  # write headers
-            csv_writer.writerows(cursor)
 
-        DataVisualization.show_visualization_two_charts("task_3_visualization/D_top_5_cities_ratio.csv",
+        df = [tuple(i[0] for i in cursor.description)]  # headers
+        df += cursor.fetchall()  # data
+
+        DataVisualization.show_visualization_two_charts(df, "task_3_visualization/D_top_5_cities_ratio",
                                                         'top_5_cities_ratio')
 
     @staticmethod
@@ -190,18 +217,16 @@ class DataVisualization:
             "union select '> 200k EUR', count(*) from real_estate where sell_or_rent = 1 and price >= 200000;"
 
         cursor.execute(query)
-        with open("task_3_visualization/E_offers_number_by_price.csv", "w", newline='') as csv_file:
-            csv_writer = csv.writer(csv_file)
-            csv_writer.writerow([i[0] for i in cursor.description])  # write headers
-            total = 0
-            data = cursor.fetchall()
-            for i in data:
-                total += int(i[1])
-            bar_labels = [round(int(row[1]) / total * 100) for row in data]
-            print(bar_labels)
-            csv_writer.writerows(data)
 
-        DataVisualization.show_visualization("task_3_visualization/E_offers_number_by_price.csv",
+        df = [tuple(i[0] for i in cursor.description)]  # headers
+        total = 0
+        data = cursor.fetchall()
+        df += data  # data
+        for i in data:
+            total += int(i[1])
+        bar_labels = [round(int(row[1]) / total * 100) for row in data]
+
+        DataVisualization.show_visualization(df, "task_3_visualization/E_offers_number_by_price",
                                              'offers_number_by_price', bar_labels)
 
     @staticmethod
@@ -212,12 +237,11 @@ class DataVisualization:
             "select 'Total real_estate', count(*) from real_estate where sell_or_rent = 1 and city = 'Beograd';"
 
         cursor.execute(query)
-        with open("task_3_visualization/F_real_estate_in_Belgrade_with_parking.csv", "w", newline='') as csv_file:
-            csv_writer = csv.writer(csv_file)
-            csv_writer.writerow([i[0] for i in cursor.description])  # write headers
-            csv_writer.writerows(cursor)
 
-        DataVisualization.show_visualization("task_3_visualization/F_real_estate_in_Belgrade_with_parking.csv",
+        df = [tuple(i[0] for i in cursor.description)]  # headers
+        df += cursor.fetchall()  # data
+
+        DataVisualization.show_visualization(df, "task_3_visualization/F_real_estate_in_Belgrade_with_parking",
                                              'real_estate_in_Belgrade_with_parking')
 
     @staticmethod
