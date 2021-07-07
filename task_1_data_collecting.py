@@ -290,6 +290,7 @@ class DataCollector:
     def parse_data(self, url):
         self.init_data()
         try:
+            print(url)
             realty = requests.get(url)
             inner_soup = BeautifulSoup(realty.content, "html.parser")
 
@@ -341,18 +342,26 @@ class DataCollector:
                 self.get_num_of_bathrooms(content)
                 self.get_floor(content)
 
-            self.data_base.add_query(self.get_data())
+            if self.elevator is None or \
+                    self.balcony is None or \
+                    self.price is None or \
+                    self.sell_or_rent is None or \
+                    self.type is None or \
+                    self.size is None:
+                print('Invalid dataset')
+            else:
+                self.data_base.add_query(self.get_data())
 
         except Exception as e:
             print("Error with parsing data:", str(e))
             return
 
     def collect_data(self):
-        num_of_pages = 10
+        num_of_pages = 200
         links = [
-            # 'https://www.nekretnine.rs/stambeni-objekti/stanovi/izdavanje-prodaja/izdavanje/lista/po-stranici/20/stranica/',
+            'https://www.nekretnine.rs/stambeni-objekti/stanovi/izdavanje-prodaja/izdavanje/lista/po-stranici/20/stranica/',
             'https://www.nekretnine.rs/stambeni-objekti/stanovi/izdavanje-prodaja/prodaja/lista/po-stranici/20/stranica/',
-            # 'https://www.nekretnine.rs/stambeni-objekti/kuce/lista/po-stranici/20/stranica/'
+            'https://www.nekretnine.rs/stambeni-objekti/kuce/lista/po-stranici/20/stranica/'
         ]
         for link in links:
             for page in range(num_of_pages):
