@@ -1,5 +1,23 @@
 id,type,sell_or_rent,size,price,city,part_of_city,land_size,floor,total_floors,num_of_rooms,num_of_bathrooms,is_registered,parking,elevator,balcony,heating_type,year_built,construction_type,url
-7584,1,0,57,850.0,Beograd,Beograd na vodi,,16,,2,,1,,1,1,Centralno,2021,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/beograd-na-vodi-57m2-xvi-cg-uknj/NkPCy2hn38t/
+19772,1,0,188,4000.0,Beograd,Kalenic pijaca,,6,,4,,0,1,1,1,Ostalo,2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/vracar-kalenic-pijaca-baba-visnjina-188m2-baba-visnjina/Nkc4oHMeJZL/
+18802,1,0,130,2800.0,Beograd,Kalenic pijaca,,5,,4,,0,1,1,1,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/stan-beograd-kalenic-novopazarska/NkmCw_dxByI/
+18638,1,0,168,2200.0,Beograd,Kalemegdan,,4,,4,3,0,0,1,0,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/novogradnja-k-district-a-faza-lux-id1619/NkA5-9Kakl8/
+14927,1,0,98,1250.0,Beograd,Vracar (Centar),,5,,4,,0,1,1,1,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/vracar-juzni-bulevar-gospodara-vucica-40-98m2-1250eur/NkKx8kEif2G/
+16343,1,0,82,1000.0,Beograd,Dunavski kej,,5,,3,2,0,1,1,1,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/k-district-3-soban-nenamesten-idealan-i-za-pp-82-m2-5sp-garazno-mesto-id11597/Nkg3bPxoO9z/
 8084,1,0,57,850.0,Beograd,Beograd na vodi,,16,,2,,1,0,1,1,Centralno,2021,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/beograd-na-vodi-57m2-xvi-cg-uknj/NkPCy2hn38t/
-7722,1,0,110,800.0,Beograd,Centar (uži),,6,,4,2,0,,1,1,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/nov-stan-za-izdavanje-centar-id615463/Nks1DGGrpLO/
+9556,1,0,57,850.0,Beograd,Beograd na vodi,,16,,2,,1,0,1,1,Centralno,2021,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/beograd-na-vodi-57m2-xvi-cg-uknj/Nkz8qhTKair/
+14037,1,0,57,850.0,Beograd,Beograd na vodi,,16,,2,,1,0,1,1,Centralno,2021,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/beograd-na-vodi-57m2-xvi-cg-uknj/Nkz8qhTKair/
 8222,1,0,110,800.0,Beograd,Centar (uži),,6,,4,2,0,0,1,1,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/nov-stan-za-izdavanje-centar-id615463/Nks1DGGrpLO/
+14935,1,0,80,800.0,Beograd,Vracar (Centar),,1,,3,,0,1,1,1,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/vracar-juzni-bulevar-gospodara-vucica-30-80m2-800eur/NkDHBTn_q09/
+15212,1,0,110,800.0,Beograd,Centar (uži),,6,,4,2,0,0,1,1,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/nov-stan-za-izdavanje-centar-id615463/NkBR3hZ9zML/
+9789,1,0,50,700.0,Beograd,Dunavski kej,,4,,2,1,0,0,1,1,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/k-district-2-soban-nenamesten-idealan-i-za-pos-prostor-lux-50-m2-id11598/NkM2r5HqHIF/
+14269,1,0,50,700.0,Beograd,Dunavski kej,,4,,2,1,0,0,1,1,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/k-district-2-soban-nenamesten-idealan-i-za-pos-prostor-lux-50-m2-id11598/NkM2r5HqHIF/
+14699,1,0,36,450.0,Novi Sad,Centar,,0,,2,1,0,0,1,0,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-sad-centar-neuseljavan-cena-sa-racunima-id9101674/NkL8CfnLhER/
+14903,1,0,37,400.0,Beograd,Novi Beograd Blok 65,,3,,1,1,0,0,1,1,Centralno,2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-wellport-10-id12901/Nk6TGm1z9NN/
+16714,1,0,60,350.0,Novi Sad,Podbara,,1,,3,1,0,0,1,1,Centralno,2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/25-soban-60-m2-polunamesten-podbara-tekelijina-nov-id1289/Nks9_v_Rv1h/
+9624,1,0,52,330.0,Beograd,Kluz,,2,,2,1,0,1,1,1,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/nov-stan-za-izdavanje-zvezdara-id15464/Nkslb1upe3F/
+14105,1,0,52,330.0,Beograd,Kluz,,2,,2,1,0,1,1,1,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/nov-stan-za-izdavanje-zvezdara-id15464/Nkslb1upe3F/
+14696,1,0,37,300.0,Novi Sad,Detelinara,,1,,2,,0,0,1,1,"Klima, Centralno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-sad-detelinara-nov-jednoiposoban-stan-id9101570/NkMwIZQqVcN/
+10076,1,0,30,270.0,Beograd,Zemun (Gornji grad),,1,,1,,0,1,0,1,"Klima, Etažno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/zemun-ugrinovacka-bosanska-10-30m2-270eur/NkIjnaDEXQ0/
+14556,1,0,30,270.0,Beograd,Zemun (Gornji grad),,1,,1,,0,1,0,1,"Klima, Etažno",2021,Novogradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/zemun-ugrinovacka-bosanska-10-30m2-270eur/NkIjnaDEXQ0/
+15826,1,0,30,250.0,Novi Sad,Grbavica,,1,,2,1,0,0,1,1,Centralno,2021,Standardna gradnja,https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-sad-grbavica-nov-namesten-jednoiposoban-stan-id9141076/NkDSWRf2zlY/

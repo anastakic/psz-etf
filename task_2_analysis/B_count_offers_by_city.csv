@@ -1,183 +1,236 @@
 total offers,city
-2985,Beograd
-214,Niš
-209,Novi Sad
-147,Zlatibor
-85,Sremska Kamenica
-29,Zrenjanin
-27,Stara Pazova
-21,Pancevo
-20,Petrovaradin
-17,Srbija
-14,Kragujevac
-12,Sremski Karlovci
-11,Arandjelovac
-11,Beocin
-10,Bar
-10,Herceg Novi
-10,None
-9,Jagodina
-9,Smederevo
-8,Kruševac
-8,Ruma
-8,Obrenovac
-8,Kraljevo
-7,Budva
-7,Veternik
-7,Vrnjacka Banja
-6,Indjija
-6,Pecinci
-6,Becej
-5,Kovacica
-5,Irig
-5,Loznica
-5,Tivat
-5,Kopaonik
-5,Lazarevac
-5,Subotica
-5,Paracin
-4,Užice
-4,Sremska Mitrovica
-4,Beška
-4,Cuprija
-4,Kotor
-4,Žabalj
-4,Šabac
-4,Kovin
-4,Podgorica
+17896,Beograd
+1712,Novi Sad
+1370,Niš
+971,Zlatibor
+420,Kragujevac
+261,Jagodina
+133,Paracin
+102,Cuprija
+96,Podgorica
+90,Srbija
+86,Sremska Kamenica
+75,Pancevo
+69,Zrenjanin
+66,Stara Pazova
+46,Vrnjacka Banja
+35,Smederevo
+35,Budva
+33,Petrovaradin
+33,Vranje
+29,Prijepolje
+23,Bar
+22,Herceg Novi
+19,Valjevo
+19,Obrenovac
+19,Arandjelovac
+19,Irig
+19,Tivat
+17,Kopaonik
+16,Novi Banovci
+16,Leskovac
+15,Subotica
+14,Pecinci
+14,Sremski Karlovci
+12,Kotor
+12,Kruševac
+12,Kraljevo
+12,Veternik
+12,Kovin
+10,Cajetina
+10,Ruma
+10,Šabac
+9,Sremska Mitrovica
+9,Beška
+8,Mladenovac (varoš)
+8,Indjija
+7,Vršac
+7,Hrvatska
+7,Cacak
+6,Kovacica
+6,Užice
+6,Alibunar
+6,Loznica
+6,Kac
+6,Krašici
+5,Požarevac
+5,Titel
+5,Vladimirci
+5,Futog
+5,Ub
+5,Vladicin Han
+4,Ulcinj
+4,Šid
 4,Vrdnik
-4,Vranje
-3,Požarevac
-3,Mladenovac (varoš)
+4,Smederevska Palanka
+4,Bosna i Hercegovina
+4,Golubac
+4,Koracica
+4,Velika Plana
+4,Cortanovci
+4,Stari Banovci
+4,Beocin
+4,Rumenka
+4,Topola
+4,Zajecar
+4,Nova Pazova
+3,Mali Zvornik
+3,Ugrinovci
 3,Srbobran
-3,Titel
+3,Požega
+3,Sombor
+3,Krivi Vir
+3,Bavanište
+3,Trstenik
 3,Sopot
-3,Valjevo
-3,Velika Plana
-3,Golubac
-3,Kac
-3,Vrbas
-3,Divcibare
-2,Sokobanja
-2,Veliko Gradište
-2,Futog
-2,Dobanovci
-2,Vladimirci
-2,Trstenik
-2,Bosna i Hercegovina
-2,Požega
-2,Ritopek
-2,Cacak
-2,Topola
-2,Zajecar
-2,Golubinje
-2,Šid
-2,Pirot
-2,Alibunar
-2,Backa Palanka
-2,Smederevska Palanka
+3,Becej
+3,Krcedin
+3,Palic
+3,Varvarin
+3,Novi Slankamen
+3,Nova Varoš
+3,Knic
+3,Rekovac
+2,Pula
+2,Malca
+2,Perucac
+2,Žabalj
+2,Curug
 2,Kladovo
-2,Apatin
-2,Grocka
-2,Selo Kostolac
-2,Cortanovci
-2,Leskovac
-2,Ravno Selo
+2,Bogutovac
+2,Supetar
+2,Pirot
+2,Secanj
+2,Coka
+2,Osijek
+2,Aleksandrovo
+2,Baošici
+2,Bela Crkva
+2,Dobra Voda
+2,Tara (planina)
+2,Jasenovo
+2,Igalo
+2,Lazarevac
+2,Veliko Gradište
+2,Šimanovci
+2,Banja Koviljaca
+2,Rakovac
+2,Lajkovac (varoš)
+2,Risan
+2,Gornji Milanovac
+2,Mramorak
+2,Backa Palanka
+2,Sutomore
+2,Donji Milanovac
+2,Sokobanja
+2,Ritopek
+2,Starcevo
+2,Golubinje
+2,Meljak
+2,Ripanj
+2,Jabucje
 2,Belegiš
-2,Palic
-2,Topola (varošica)
-2,Surduk
-2,Vladicin Han
-1,Perucac
-1,Guncati
-1,Ribnica
-1,Melenci
-1,Bukovac
-1,Donje Vlase
-1,Novi Banovci
-1,Tara (planina)
-1,
-1,Rijeka Crnojevica
-1,Ulcinj
-1,Zelenika
-1,Kozjak
-1,Starcevo
-1,Boljevci
-1,Kušici
-1,Koracica
-1,Donji Milanovac
-1,Višegrad
-1,Supetar
-1,Mali Zvornik
+2,Boždarevac
+2,Donji Orahovac
+2,Temerin
+1,Kuršumlija
 1,Žabari
-1,Coka
 1,Sveta Nedelja
-1,Pržno
-1,Bobovište
-1,Cerevic
-1,Niška Banja
-1,Ralja
-1,Banja Vrujci
-1,Krašici
-1,Jazak
-1,Skupljen
-1,Banatsko Novo Selo
-1,Žabljak
-1,Krcedin
-1,Jarkovac
-1,Lacarak
-1,Nova Pazova
-1,Sombor
-1,Ladjevci
-1,Rogaca
-1,Sivac
-1,Pliješevina
-1,Krušedol Selo
-1,Rumenka
-1,Doroslovo
-1,Vršac
-1,Banatski Karlovac
-1,Kikinda
-1,Bac
-1,Brus
-1,Curug
-1,Ub
-1,Kanjiža
-1,Bela Crkva
-1,Plandište
-1,Bogutovac
-1,Cenej
-1,Rakovac
-1,Selevac
-1,Stari Banovci
-1,Aleksandrovo
-1,Vojka
-1,Trbušac
-1,Dobra Voda
-1,Backi Petrovac
-1,Kljajicevo
-1,Dolovo
-1,Danilovgrad
-1,Katun Reževici
-1,Mišicevo
-1,Prijepolje
-1,Kula
-1,Žitkovac
-1,Bavanište
-1,Azanja
-1,Ecka
-1,Ljubinic
-1,Donja Raca
+1,Doljevac
+1,Mionica
+1,Niševac
+1,Karadjordjevo
+1,Arilje
+1,Divcibare
+1,Debrc
 1,Botoš
 1,Lešnica
-1,Osipaonica
+1,Krušedol Selo
+1,Prokuplje
+1,Kacarevo
+1,Zmajevo
+1,Stopanja
+1,Salaš Crnobarski
+1,Surduk
+1,Boljevac
+1,Kukujevci
+1,Skupljen
+1,Cenej
+1,Belanovica
+1,Perlez
+1,Backo Gradište
+1,Banja Vrujci
+1,Nikinci
+1,Guncati
+1,Melenci
+1,Bukovac
+1,Rijeka Crnojevica
+1,Zelenika
+1,Višegrad
+1,Vrbas
+1,Bobovište
+1,Cerevic
+1,Jazak
+1,Žabljak
+1,Ravno Selo
+1,Jarkovac
+1,Lacarak
+1,Ladjevci
+1,Sivac
 1,Mali Požarevac
-1,Vlaška
-1,Varvarin
-1,Gornja Trepca
-1,Virpazar
-1,Meljak
-1,Novi Karlovci
+1,Žitište
+1,Vracevšnica
+1,Nikšic
+1,Ralja
+1,Krušedol Prnjavor
+1,Utrg
+1,Bajina Bašta
+1,Mramor
+1,Guca (varošica)
+1,Deliblato
+1,Trupale
+1,Vodice
+1,Aleksinac
+1,Jelašnica
+1,Krimovica
+1,Kumbor
+1,Medoševac
+1,Ivanovo
+1,Sutorina
+1,Grcka
+1,Vrsar
+1,Zvecka
+1,Velika Krsna
+1,Baric
+1,Dobrota
+1,Becmen
+1,Bigova
+1,Donji Stoliv
+1,Bijela
+1,Blizikuce
+1,Stubline
+1,Markovici
+1,Perast
+1,Cicevac
+1,Bacevac
+1,Šušanj
+1,Bujanovac
+1,Bosilegrad
+1,Despotovac
+1,Banoštor
 1,Jabuka
-1,Krcevac
-1,Krivi Vir
+1,Katun Reževici
+1,Rijeka Reževici
+1,Sveti Stefan
+1,Becici
+1,Brodarevo
+1,Zalug
+1,Ivanje
+1,Bolec
+1,Kikinda
+1,Karlovcic
+1,Crna Gora
+1,Osecina (selo)
+1,Bukovik
+1,Velika Moštanica
+1,Batocina
