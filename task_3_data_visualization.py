@@ -43,7 +43,7 @@ class DataVisualization:
 
         plt.figure(constrained_layout=True)
         for i, xx in enumerate(bar_labels):
-            plt.text(i-.1, y[i]+10, '{}%'.format(str(bar_labels[i])))
+            plt.text(i - .1, y[i] + 10, '{}%'.format(str(bar_labels[i])))
         plt.bar(x, y, color='g', width=0.5, label="Offer number", bottom=bottom)
         plt.xlabel(str(x_label))
         plt.xticks(rotation=75)
@@ -70,7 +70,7 @@ class DataVisualization:
             else:
                 x.append(row[0])
                 y.append(int(row[1]))
-        
+
         plt.figure(constrained_layout=True)
         for i, xx in enumerate(bar_labels):
             plt.text(i - .1, y[i] + 10, '{}%'.format(str(bar_labels[i])))
@@ -189,17 +189,21 @@ class DataVisualization:
     @staticmethod
     def task_d(cursor):
         query = \
-            "with temp as (" \
-            "select city as `City`, " \
-            "	(select count(*) from real_estate where sell_or_rent = 1 and city = r.city) as `Sell`, " \
-            "	(select count(*) from real_estate where sell_or_rent = 0 and city = r.city) as `Rent`," \
-            "	(select count(*) from real_estate where city = r.city) as `Total`" \
-            "from real_estate r group by city order by 4 desc limit 5" \
-            ")" \
-            "select `City`, `Sell`, `Sell`/`Total`*100 as `Sell pct.`, `Rent`, " \
-            "`Rent`/`Total`*100 as `Rent pct.` from temp;"
+            "with temp as " \
+            "( " \
+            "select count(*) as `Total`, city as `City` from real_estate group by city order by 1 desc limit 5 " \
+            ") " \
+            "select " \
+            "t.city as `City`, " \
+            "count(*) as `Sell`, " \
+            "count(*)/t.`Total`*100 as `Sell pct.`, " \
+            "t.`Total`-count(*) as `Rent`, " \
+            "(t.`Total`-count(*))/`Total`*100 as `Rent pct.` " \
+            "from real_estate r join temp t on r.city = t.city " \
+            "where sell_or_rent = 1 group by t.city; "
 
-        cursor.execute(query.format(1))
+        print(query)
+        cursor.execute(query)
 
         df = [tuple(i[0] for i in cursor.description)]  # headers
         df += cursor.fetchall()  # data
