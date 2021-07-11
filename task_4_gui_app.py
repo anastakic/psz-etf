@@ -3,11 +3,11 @@ from tkinter import *
 from task_4_regression import HelperMLR
 from task_5_knn import kNN
 
-REGRESSION = 1
-KNN = 2
+REGRESSION = 0
+KNN = 1
 
-EUCLIDEAN = 1
-MANHATTAN = 2
+EUCLIDEAN = 0
+MANHATTAN = 1
 
 
 class LinearRegressionApp:
@@ -31,14 +31,14 @@ class LinearRegressionApp:
         self.kNN_manhattan = None
         self.window_settings()
         self.set_title('Apartments in Belgrade')
-        self.set_fake_margin(1)
+        self.set_padding(1)
         self.set_labels()
         self.set_inputs()
         self.add_button_reg('Linear Regression')
         self.add_button_knn('kNN algorithm')
-        self.set_fake_margin(11)
+        self.set_padding(11)
         self.add_submit('Run')
-        self.set_fake_margin(13)
+        self.set_padding(13)
         self.message = self.set_message()
         self.start_app()
 
@@ -52,9 +52,9 @@ class LinearRegressionApp:
     def set_title(self, title):
         self.window.title(title)
 
-    def set_fake_margin(self, row, text=''):
+    def set_padding(self, row, text=''):
         Label(self.window, text=text, background=self.background, width='30').\
-            grid(row=row, column=0)
+            grid(row=row, column=0, pady=5)
 
     def set_labels(self):
         self.add_label('Distance from center [m]', 2, 0)
@@ -62,17 +62,12 @@ class LinearRegressionApp:
         self.add_label('Year built', 4, 0)
         self.add_label('Number of rooms', 5, 0)
         self.add_label('Floor number', 6, 0)
-        self.set_fake_margin(7)
-        self.set_fake_margin(8)
+        self.set_padding(7)
         self.k_label = self.add_label('Set K manually (uses default value if empty)', 9, 0, '#777777')
 
     def set_inputs(self):
-        self.add_input(2, 1)
-        self.add_input(3, 1)
-        self.add_input(4, 1)
-        self.add_input(5, 1)
-        self.add_input(6, 1)
-
+        for i in range(2, 7):
+            self.add_input(i, 1)
         self.set_knn_inputs()
 
     def set_knn_inputs(self):
@@ -84,20 +79,16 @@ class LinearRegressionApp:
         self.k_param = entry_var
         self.kNN_euclidean = Radiobutton(self.window, text='Euclidean distance',
                                          bg=self.background, activebackground=self.background,
-                                         variable=self.knn_dist, value=EUCLIDEAN, command=self.print_selection)
+                                         variable=self.knn_dist, value=EUCLIDEAN)
         self.kNN_manhattan = Radiobutton(self.window, text='Manhattan distance',
                                          bg=self.background, activebackground=self.background,
-                                         variable=self.knn_dist, value=MANHATTAN, command=self.print_selection)
+                                         variable=self.knn_dist, value=MANHATTAN)
         self.kNN_euclidean.grid(row=10, column=0)
         self.kNN_manhattan.grid(row=10, column=1)
         self.kNN_euclidean.select()
 
         self.kNN_euclidean.configure(state='disable')
         self.kNN_manhattan.configure(state='disable')
-
-    def print_selection(self):
-        # print(self.knn_dist.get())
-        pass
 
     def add_label(self, title, row, column, text_color='black'):
         label = Label(self.window, text=title, background=self.background, foreground=text_color)
@@ -140,7 +131,9 @@ class LinearRegressionApp:
                     return False
             self.message.configure(text=" ")
             try:
-                # run DistanceCalculation
+                # DistanceCalculation results are stored into data.csv as first column
+                # if there are new data in the database uncomment this code section
+                #
                 # dc = DistanceCalculation()
                 # dc.prepare_data()
 
@@ -163,16 +156,17 @@ class LinearRegressionApp:
                 elif self.mode == KNN:
                     knn = kNN(df)
 
+                    # if parameter K is manually set
                     if self.k_input.get() != '' and str(self.k_input.get()).isdigit():
                         knn.set_k(int(self.k_input.get()))
 
+                    # does calculations for both metrics
                     knn.calculate_distances(test)
+
                     if self.knn_dist.get() == EUCLIDEAN:
                         class_num, class_name = knn.predict_euclidean()
-                        self.message.configure(
-                            text="Class: {}, {}.".format(class_num, class_name),
-                            foreground='green'
-                        )
+                        self.message.configure(text="Class: {}, {}.".format(class_num, class_name), foreground='green')
+
                     elif self.knn_dist.get() == MANHATTAN:
                         class_num, class_name = knn.predict_manhattan()
                         self.message.configure(text="Class: {}, {}.".format(class_num, class_name), foreground='green')
@@ -181,21 +175,27 @@ class LinearRegressionApp:
                 self.message.configure(text=str(e), foreground='#aa0000')
 
     def run_reg(self):
-        self.buttons[0].configure(bg='#55aaff')
-        self.buttons[1].configure(bg='#18297e')
+        self.buttons[KNN].configure(bg='#18297e')
+        self.buttons[REGRESSION].configure(bg='#55aaff')
         self.mode = REGRESSION
+
+        # if mode is REGRESSION disable input fields for kNN
         self.k_input.configure(disabledbackground='#aeb4bd', state='disable')
         self.kNN_euclidean.configure(state='disable')
         self.kNN_manhattan.configure(state='disable')
         self.k_label.configure(foreground='#777777')
 
     def run_knn(self):
-        self.buttons[1].configure(bg='#55aaff')
-        self.buttons[0].configure(bg='#18297e')
+        self.buttons[KNN].configure(bg='#55aaff')
+        self.buttons[REGRESSION].configure(bg='#18297e')
         self.mode = KNN
+
+        # if mode is kNN enable input fields for kNN
         self.k_input.configure(state='normal')
         self.kNN_euclidean.configure(state='normal')
         self.kNN_manhattan.configure(state='normal')
         self.k_label.configure(foreground='black')
 
-window = LinearRegressionApp()
+
+if __name__ == '__main__':
+    window = LinearRegressionApp()
