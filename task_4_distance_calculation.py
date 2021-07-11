@@ -1,8 +1,9 @@
-import requests  # pip install requests
+import requests                     # pip install requests
 import re
 import pyodbc
 import pandas as pd
-from bs4 import BeautifulSoup  # pip install beautifulsoup4
+from bs4 import BeautifulSoup       # pip install beautifulsoup4
+
 from task_1_database_connection import DataBase
 
 
@@ -17,8 +18,8 @@ class DistanceCalculation:
         try:
             realty = requests.get(url)
             inner_soup = BeautifulSoup(realty.content, "html.parser")
-            find_km = re.search("\"([\d]+\,?[\d]*) km", str(inner_soup), re.IGNORECASE)
-            find_m = re.search("\"([\d]+\,?[\d]*) m", str(inner_soup), re.IGNORECASE)
+            find_km = re.search('"([\d]+,?[\d]*) km', str(inner_soup), re.IGNORECASE)
+            find_m = re.search('"([\d]+,?[\d]*) m', str(inner_soup), re.IGNORECASE)
             if find_km:
                 return float(find_km.group(1).replace(',', '.')) * 1000
             elif find_m:
@@ -45,7 +46,7 @@ class DistanceCalculation:
             pass
 
     def get_distance(self, part_to):
-        # uncomment in case of problem with getting distance
+        # uncomment in case of problems with distance calculation
         #
         # if part_to.find('(') > 0:
         #    part_to = part_to[:part_to.find('(')]
@@ -59,6 +60,7 @@ class DistanceCalculation:
         print('\t' + str(self.distances[part_to]) + ' m')
         return self.distances[part_to]
 
+    # noinspection PyTypeChecker
     def prepare_data(self):
         connection = None
         try:
@@ -77,8 +79,7 @@ class DistanceCalculation:
             data['distance'] = data.apply(lambda row: self.get_distance(row['part_of_city']), axis=1)
             data = data.filter(items=['distance', 'size', 'year_built', 'num_of_rooms', 'floor', 'price'])
 
-            print(len(data))
-            print(data)
+            # a few parameters set to non-default value
             data.to_csv(path_or_buf=r'test.csv', sep=',', na_rep='',
                                   float_format=None, columns=None, header=False,
                                   index=False, index_label=None, mode='w', encoding=None,
@@ -86,13 +87,10 @@ class DistanceCalculation:
                                   line_terminator=None, chunksize=None, date_format=None,
                                   doublequote=True, escapechar=None, decimal='.',
                                   errors='strict', storage_options=None)
-
             self.dataframe = data
         except (Exception, pyodbc.DatabaseError) as error:
             print("Error: ", error)
         finally:
             # closing database connection.
             if connection:
-                # cursor.close()
                 connection.close()
-
