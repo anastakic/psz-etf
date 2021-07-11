@@ -1,10 +1,6 @@
 import pyodbc
-import csv
-import matplotlib.pyplot as plt  # pip install matplotlib
-from matplotlib import ticker
 import numpy as np
-import pandas as pd
-from pandas import DataFrame
+import matplotlib.pyplot as plt  # pip install matplotlib
 
 from task_1_database_connection import DataBase
 
@@ -25,38 +21,9 @@ class DataVisualization:
         print('****************')
 
     @staticmethod
-    def show_visualization_old(file, title, bar_labels=[], bottom=0):
-        x = []
-        y = []
-        x_label = y_label = ''
-
-        with open(file, 'r') as csv_file:
-            plots = csv.reader(csv_file)
-
-            for i, row in enumerate(plots):
-                if i == 0:
-                    x_label = row[0]
-                    y_label = row[1]
-                else:
-                    x.append(row[0])
-                    y.append(int(row[1]))
-
-        plt.figure(constrained_layout=True)
-        for i, xx in enumerate(bar_labels):
-            plt.text(i - .1, y[i] + 10, '{}%'.format(str(bar_labels[i])))
-        plt.bar(x, y, color='g', width=0.5, label="Offer number", bottom=bottom)
-        plt.xlabel(str(x_label))
-        plt.xticks(rotation=75)
-        plt.minorticks_on()
-        plt.ylabel(str(y_label))
-        plt.title(title)
-        plt.legend(loc='best', fontsize=15)
-        # plt.show()
-        plt.savefig(file[:-4])
-        plt.close()
-
-    @staticmethod  # new
-    def show_visualization(df, path, title, bar_labels=[], bottom=0):
+    def show_visualization(df, path, title, bar_labels=None, bottom=0):
+        if bar_labels is None:
+            bar_labels = []
         x = []
         y = []
         x_label = y_label = ''
@@ -86,7 +53,7 @@ class DataVisualization:
         plt.close()
 
     @staticmethod
-    def show_visualization_two_charts(df, path, title, bottom=0):
+    def show_visualization_two_charts(df, path, title):
 
         values_sell = []
         values_rent = []
