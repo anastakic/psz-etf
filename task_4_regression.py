@@ -28,8 +28,8 @@ class HelperMLR:
 
         if part_to not in self.distances.keys():
             self.distances[part_to] = self.dc.collect_data(part_to)
+            print('INFO', part_to.lower() + ':', str(self.distances[part_to]) + ' m')
 
-        print('INFO', part_to.lower() + ':', str(self.distances[part_to]) + ' m')
         return self.distances[part_to]
 
     # noinspection PyTypeChecker
@@ -50,9 +50,7 @@ class HelperMLR:
             data = pd.read_sql(for_sale_query, connection)
             data['distance'] = data.apply(lambda row: self.get_distance(row['part_of_city']), axis=1)
             data = data.filter(items=['distance', 'size', 'year_built', 'num_of_rooms', 'floor', 'price'])
-            print(len(data))
             data.dropna(subset=['distance', 'size', 'year_built', 'num_of_rooms', 'floor', 'price'], inplace=True)
-            print(len(data))
 
             # for few parameters changed default value
             data.to_csv(path_or_buf=r'data.csv', sep=',', na_rep='',
@@ -62,6 +60,7 @@ class HelperMLR:
                         line_terminator=None, chunksize=None, date_format=None,
                         doublequote=True, escapechar=None, decimal='.',
                         errors='strict', storage_options=None)
+            return data
 
         except (Exception, pyodbc.DatabaseError) as error:
             print("Error: ", error)
@@ -122,10 +121,12 @@ class HelperMLR:
         return prediction
 
     def start_linear_regression(self):
-        # self.prepare_data()
-        # read data
-        self.dataframe = pd.read_csv('data.csv')
-        df = self.dataframe
+        # DistanceCalculation results are stored into data.csv as first column
+        # if there are new data in the database uncomment this code section
+        #
+        # df = self.prepare_data()
+
+        df = pd.read_csv('data.csv')
 
         # df.dropna(subset=['distance', 'size', 'year_built', 'num_of_rooms', 'floor', 'price'], inplace=True)
         # df.to_csv(path_or_buf=r'data.csv', header=True, index=False)
