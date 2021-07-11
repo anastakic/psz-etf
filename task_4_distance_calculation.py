@@ -80,8 +80,8 @@ class DistanceCalculation:
             data = data.filter(items=['distance', 'size', 'year_built', 'num_of_rooms', 'floor', 'price'])
 
             # a few parameters set to non-default value
-            data.to_csv(path_or_buf=r'test.csv', sep=',', na_rep='',
-                                  float_format=None, columns=None, header=False,
+            data.to_csv(path_or_buf=r'data.csv', sep=',', na_rep='',
+                                  float_format=None, columns=None, header=True,
                                   index=False, index_label=None, mode='w', encoding=None,
                                   compression='infer', quoting=None, quotechar='"',
                                   line_terminator=None, chunksize=None, date_format=None,
