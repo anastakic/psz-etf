@@ -131,12 +131,6 @@ class LinearRegressionApp:
                     return False
             self.message.configure(text=" ")
             try:
-                # DistanceCalculation results are stored into data.csv as first column
-                # if there are new data in the database uncomment this code section
-                #
-                # dc = DistanceCalculation()
-                # dc.prepare_data()
-
                 df = pd.read_csv('data.csv')
                 df = df[['distance', 'size', 'year_built', 'num_of_rooms', 'floor', 'price']].astype(float)
                 df.columns = range(df.shape[1])
