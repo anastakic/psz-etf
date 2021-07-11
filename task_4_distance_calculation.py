@@ -45,13 +45,13 @@ class DistanceCalculation:
             pass
 
     def get_distance(self, part_to):
-        print(part_to.lower() + ':')
-        if part_to.find('(') > 0:
-            part_to = part_to[:part_to.find('(')]
-
-        # maybe can be removed
-        part_to = part_to.replace('ž', 'z')
-        part_to = part_to.replace('š', 's')
+        # uncomment in case of problem with getting distance
+        #
+        # if part_to.find('(') > 0:
+        #    part_to = part_to[:part_to.find('(')]
+        #
+        # part_to = part_to.replace('ž', 'z')
+        # part_to = part_to.replace('š', 's')
 
         if part_to not in self.distances.keys():
             self.distances[part_to] = self.collect_data(part_to)
@@ -72,22 +72,11 @@ class DistanceCalculation:
                              "and num_of_rooms is not null " \
                              "and floor is not null " \
                              "and price is not null;" \
-                             # "limit 15;"
 
             data = pd.read_sql(for_sale_query, connection)
             data['distance'] = data.apply(lambda row: self.get_distance(row['part_of_city']), axis=1)
             data = data.filter(items=['distance', 'size', 'year_built', 'num_of_rooms', 'floor', 'price'])
 
-            '''
-            self.dataframe = data[
-                data['distance'] is not None &
-                data['size'] is not None &
-                data['year_built'] is not None &
-                data['num_of_rooms'] is not None &
-                data['floor'] is not None &
-                data['price'] is not None
-                ]
-            '''
             print(len(data))
             print(data)
             data.to_csv(path_or_buf=r'test.csv', sep=',', na_rep='',
@@ -107,10 +96,3 @@ class DistanceCalculation:
                 # cursor.close()
                 connection.close()
 
-# dc = DistanceCalculation()
-# dc.prepare_data()
-# print(dc.dataframe)
-# df = pd.read_csv('test.csv', header=None)
-
-# lr = LinearRegression(df)
-# knn = kNN(df)
