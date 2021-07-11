@@ -4,10 +4,17 @@ from task_3_data_visualization import DataVisualization
 
 
 def main():
+    # main for task1, task2 and task3
+
+    # task1
     # data_collector = DataCollector()
     # data_collector.start()
+
+    # task2
     # data_analysis = DataAnalysis()
     # data_analysis.start()
+
+    # task3
     data_visualization = DataVisualization()
     data_visualization.start()
 
