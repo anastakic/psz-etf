@@ -72,8 +72,8 @@ Ovaj zadatak obuhvata realizaciju višestruke linearne regresije koja koristi gr
 Nezavisne ulazne promenljive su udaljenost mesta nekretnine od centra grada, veličina nekretnine, godina izgradnje, 
 broj soba i sprat na kom se nekretnina nalazi, dok je izlazni parametar cena same nekretnine. 
 Ulazni parametni prosleđuju se kroz gui aplikaciju, koja je zajednička za zadatke 4 i 5.
-Prilikom obučavanja modela koriste se normalizovani podatke zbog mogućnosti pojave overflow-a prilikom računana.
-Sve metode linearne regresije su realizovane, bez korišćenja python biblioteka namenjih za ovaj tip rada.
+Prilikom obučavanja modela koriste se normalizovani podaci zbog mogućnosti pojave overflow-a prilikom računana.
+Sve metode linearne regresije su realizovane bez korišćenja python biblioteka namenjih za ovaj tip rada.
 
 
 ## Zadatak 5: Implementacija klasifikacije
